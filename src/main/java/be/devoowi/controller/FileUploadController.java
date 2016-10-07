@@ -83,7 +83,7 @@ public class FileUploadController {
 				response.getOutputStream().write(out.toByteArray());
 				response.getOutputStream().flush();
 				response.getOutputStream().close();
-				getDownload();
+				//getDownload();
 				FacesContext.getCurrentInstance().responseComplete();
 
 
