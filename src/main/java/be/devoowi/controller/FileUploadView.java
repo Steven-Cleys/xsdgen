@@ -5,6 +5,7 @@ import javax.faces.context.ExternalContext;
 import javax.faces.context.FacesContext;
 
 import be.devoowi.xsdgenerator.GenerateXsdFromBiSampleCode;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.primefaces.event.FileUploadEvent;
 import org.primefaces.model.DefaultStreamedContent;
@@ -33,13 +34,18 @@ public class FileUploadView {
         if(file != null) {
 
             try {
-                 //download = new DefaultStreamedContent(file.getInputstream());
                 // Creating the directory to store file
-                InputStream myInputStream = file.getInputstream();
+
                 String rootPath = System.getProperty("catalina.home");
                 File dir = new File(rootPath + File.separator + "tmpFiles");
                 if (!dir.exists())
                     dir.mkdirs();
+                // keeping the folder clean
+                logger.info("Cleaning directory");
+                FileUtils.cleanDirectory(dir);
+                //download = new DefaultStreamedContent(file.getInputstream());
+                InputStream myInputStream = file.getInputstream();
+
 
                 // Create the file on server
                 File serverFile = new File(dir.getAbsolutePath()
@@ -67,8 +73,6 @@ public class FileUploadView {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-           
-            
         }
         return download;
     }

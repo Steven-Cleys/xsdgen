@@ -7,24 +7,10 @@
       xmlns:p="http://primefaces.org/ui"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
-
+    <title>XSD generator</title>
 </h:head>
 
 <h:body>
-
-    <h:form >
-        <p:fileUpload fileUploadListener="#{fileUploadController.uploadFileHandler}" mode="advanced" dragDropSupport="true"
-                        fileLimit="1" allowTypes="/(\.|\/)(xml)$/" />
-
-        <p:growl  showDetail="true" />
-    </h:form>
-
-
-    <h:form>
-        <p:commandButton id="downloadLink" value="Download" ajax="false">
-            <p:fileDownload value="#{fileUploadController.download}" />
-        </p:commandButton>
-    </h:form>
 
     <h:form enctype="multipart/form-data">
         <p:growl id="messages" showDetail="true" />
