@@ -42,7 +42,7 @@ public class JasyptEncryptorView {
         encryptor.setConfig(config);
         encryptor.initialize();
         setOutput(PropertyValueEncryptionUtils.encrypt(getInput(), encryptor));
-        System.out.println(getOutput());
+        System.out.println("sdfsdf" + getOutput());
     }
 
     public void genDecryption() {
@@ -53,7 +53,7 @@ public class JasyptEncryptorView {
         StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
         encryptor.setConfig(config);
         encryptor.initialize();
-        setOutput(PropertyValueEncryptionUtils.decrypt(getInput(),encryptor));
+        setOutput(PropertyValueEncryptionUtils.decrypt(getInput(), encryptor));
         System.out.println(getOutput());
     }
 
