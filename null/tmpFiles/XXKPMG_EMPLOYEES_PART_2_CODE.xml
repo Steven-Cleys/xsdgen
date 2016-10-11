@@ -1,0 +1,1098 @@
+<output rootName="XXKPMG_EMPLOYEES_PART_2_DM" uniqueRowName="false">
+<nodeList name="data-structure">
+<dataStructure tagName="XXKPMG_EMPLOYEES_PART_2_DM">
+<group name="PER_ADDRESSES_F" label="PER_ADDRESSES_F" source="PER_ADDRESSES_F">
+<element name="ADDRESS_ID" value="ADDRESS_ID" label="ADDRESS_ID" dataType="xsd:double" breakOrder="" fieldOrder="1"/>
+<element name="BUSINESS_GROUP_ID" value="BUSINESS_GROUP_ID" label="BUSINESS_GROUP_ID" dataType="xsd:double" breakOrder="" fieldOrder="4"/>
+<element name="COUNTRY" value="COUNTRY" label="COUNTRY" dataType="xsd:string" breakOrder="" fieldOrder="15"/>
+<element name="POSTAL_CODE" value="POSTAL_CODE" label="POSTAL_CODE" dataType="xsd:string" breakOrder="" fieldOrder="16"/>
+<element name="REGION_1" value="REGION_1" label="REGION_1" dataType="xsd:string" breakOrder="" fieldOrder="12"/>
+<element name="REGION_2" value="REGION_2" label="REGION_2" dataType="xsd:string" breakOrder="" fieldOrder="13"/>
+<element name="REGION_3" value="REGION_3" label="REGION_3" dataType="xsd:string" breakOrder="" fieldOrder="14"/>
+<element name="TOWN_OR_CITY" value="TOWN_OR_CITY" label="TOWN_OR_CITY" dataType="xsd:string" breakOrder="" fieldOrder="11"/>
+<element name="ADDR_ATTRIBUTE_CATEGORY" value="ADDR_ATTRIBUTE_CATEGORY" label="ADDR_ATTRIBUTE_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="27"/>
+<element name="ADDR_ATTRIBUTE1" value="ADDR_ATTRIBUTE1" label="ADDR_ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="28"/>
+<element name="ADDR_ATTRIBUTE2" value="ADDR_ATTRIBUTE2" label="ADDR_ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="29"/>
+<element name="ADDR_ATTRIBUTE3" value="ADDR_ATTRIBUTE3" label="ADDR_ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="30"/>
+<element name="ADDR_ATTRIBUTE4" value="ADDR_ATTRIBUTE4" label="ADDR_ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="31"/>
+<element name="ADDR_ATTRIBUTE5" value="ADDR_ATTRIBUTE5" label="ADDR_ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="32"/>
+<element name="ADDR_ATTRIBUTE6" value="ADDR_ATTRIBUTE6" label="ADDR_ATTRIBUTE6" dataType="xsd:string" breakOrder="" fieldOrder="33"/>
+<element name="ADDR_ATTRIBUTE7" value="ADDR_ATTRIBUTE7" label="ADDR_ATTRIBUTE7" dataType="xsd:string" breakOrder="" fieldOrder="34"/>
+<element name="ADDR_ATTRIBUTE8" value="ADDR_ATTRIBUTE8" label="ADDR_ATTRIBUTE8" dataType="xsd:string" breakOrder="" fieldOrder="35"/>
+<element name="ADDR_ATTRIBUTE9" value="ADDR_ATTRIBUTE9" label="ADDR_ATTRIBUTE9" dataType="xsd:string" breakOrder="" fieldOrder="36"/>
+<element name="ADDR_ATTRIBUTE10" value="ADDR_ATTRIBUTE10" label="ADDR_ATTRIBUTE10" dataType="xsd:string" breakOrder="" fieldOrder="37"/>
+<element name="ADDR_ATTRIBUTE11" value="ADDR_ATTRIBUTE11" label="ADDR_ATTRIBUTE11" dataType="xsd:string" breakOrder="" fieldOrder="38"/>
+<element name="ADDR_ATTRIBUTE12" value="ADDR_ATTRIBUTE12" label="ADDR_ATTRIBUTE12" dataType="xsd:string" breakOrder="" fieldOrder="39"/>
+<element name="ADDR_ATTRIBUTE13" value="ADDR_ATTRIBUTE13" label="ADDR_ATTRIBUTE13" dataType="xsd:string" breakOrder="" fieldOrder="40"/>
+<element name="ADDR_ATTRIBUTE14" value="ADDR_ATTRIBUTE14" label="ADDR_ATTRIBUTE14" dataType="xsd:string" breakOrder="" fieldOrder="41"/>
+<element name="ADDR_ATTRIBUTE15" value="ADDR_ATTRIBUTE15" label="ADDR_ATTRIBUTE15" dataType="xsd:string" breakOrder="" fieldOrder="42"/>
+<element name="ADDR_ATTRIBUTE16" value="ADDR_ATTRIBUTE16" label="ADDR_ATTRIBUTE16" dataType="xsd:string" breakOrder="" fieldOrder="43"/>
+<element name="ADDR_ATTRIBUTE17" value="ADDR_ATTRIBUTE17" label="ADDR_ATTRIBUTE17" dataType="xsd:string" breakOrder="" fieldOrder="44"/>
+<element name="ADDR_ATTRIBUTE18" value="ADDR_ATTRIBUTE18" label="ADDR_ATTRIBUTE18" dataType="xsd:string" breakOrder="" fieldOrder="45"/>
+<element name="ADDR_ATTRIBUTE19" value="ADDR_ATTRIBUTE19" label="ADDR_ATTRIBUTE19" dataType="xsd:string" breakOrder="" fieldOrder="46"/>
+<element name="ADDR_ATTRIBUTE20" value="ADDR_ATTRIBUTE20" label="ADDR_ATTRIBUTE20" dataType="xsd:string" breakOrder="" fieldOrder="47"/>
+<element name="LAST_UPDATE_DATE" value="LAST_UPDATE_DATE" label="LAST_UPDATE_DATE" dataType="xsd:date" breakOrder="" fieldOrder="96" />
+<element name="LAST_UPDATED_BY" value="LAST_UPDATED_BY" label="LAST_UPDATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="98"/>
+<element name="LAST_UPDATE_LOGIN" value="LAST_UPDATE_LOGIN" label="LAST_UPDATE_LOGIN" dataType="xsd:string" breakOrder="" fieldOrder="97"/>
+<element name="CREATED_BY" value="CREATED_BY" label="CREATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="94"/>
+<element name="CREATION_DATE" value="CREATION_DATE" label="CREATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="95" />
+<element name="OBJECT_VERSION_NUMBER" value="OBJECT_VERSION_NUMBER" label="OBJECT_VERSION_NUMBER" dataType="xsd:integer" breakOrder="" fieldOrder="93"/>
+<element name="DERIVED_LOCALE" value="DERIVED_LOCALE" label="DERIVED_LOCALE" dataType="xsd:string" breakOrder="" fieldOrder="19"/>
+<element name="GEOMETRY" value="GEOMETRY" label="GEOMETRY" dataType="xsd:string" breakOrder="" fieldOrder="20"/>
+<element name="ADDR_ATTRIBUTE21" value="ADDR_ATTRIBUTE21" label="ADDR_ATTRIBUTE21" dataType="xsd:string" breakOrder="" fieldOrder="48"/>
+<element name="ADDR_ATTRIBUTE22" value="ADDR_ATTRIBUTE22" label="ADDR_ATTRIBUTE22" dataType="xsd:string" breakOrder="" fieldOrder="49"/>
+<element name="ADDR_ATTRIBUTE23" value="ADDR_ATTRIBUTE23" label="ADDR_ATTRIBUTE23" dataType="xsd:string" breakOrder="" fieldOrder="50"/>
+<element name="ADDR_ATTRIBUTE24" value="ADDR_ATTRIBUTE24" label="ADDR_ATTRIBUTE24" dataType="xsd:string" breakOrder="" fieldOrder="51"/>
+<element name="ADDR_ATTRIBUTE25" value="ADDR_ATTRIBUTE25" label="ADDR_ATTRIBUTE25" dataType="xsd:string" breakOrder="" fieldOrder="52"/>
+<element name="ADDR_ATTRIBUTE26" value="ADDR_ATTRIBUTE26" label="ADDR_ATTRIBUTE26" dataType="xsd:string" breakOrder="" fieldOrder="53"/>
+<element name="ADDR_ATTRIBUTE27" value="ADDR_ATTRIBUTE27" label="ADDR_ATTRIBUTE27" dataType="xsd:string" breakOrder="" fieldOrder="54"/>
+<element name="ADDR_ATTRIBUTE28" value="ADDR_ATTRIBUTE28" label="ADDR_ATTRIBUTE28" dataType="xsd:string" breakOrder="" fieldOrder="55"/>
+<element name="ADDR_ATTRIBUTE29" value="ADDR_ATTRIBUTE29" label="ADDR_ATTRIBUTE29" dataType="xsd:string" breakOrder="" fieldOrder="56"/>
+<element name="ADDR_ATTRIBUTE30" value="ADDR_ATTRIBUTE30" label="ADDR_ATTRIBUTE30" dataType="xsd:string" breakOrder="" fieldOrder="57"/>
+<element name="EFFECTIVE_START_DATE" value="EFFECTIVE_START_DATE" label="EFFECTIVE_START_DATE" dataType="xsd:date" breakOrder="" fieldOrder="2" />
+<element name="EFFECTIVE_END_DATE" value="EFFECTIVE_END_DATE" label="EFFECTIVE_END_DATE" dataType="xsd:date" breakOrder="" fieldOrder="3" />
+<element name="ADDRESS_LINE_1" value="ADDRESS_LINE_1" label="ADDRESS_LINE_1" dataType="xsd:string" breakOrder="" fieldOrder="5"/>
+<element name="ADDRESS_LINE_2" value="ADDRESS_LINE_2" label="ADDRESS_LINE_2" dataType="xsd:string" breakOrder="" fieldOrder="6"/>
+<element name="ADDRESS_LINE_3" value="ADDRESS_LINE_3" label="ADDRESS_LINE_3" dataType="xsd:string" breakOrder="" fieldOrder="7"/>
+<element name="ADDRESS_LINE_4" value="ADDRESS_LINE_4" label="ADDRESS_LINE_4" dataType="xsd:string" breakOrder="" fieldOrder="8"/>
+<element name="BUILDING" value="BUILDING" label="BUILDING" dataType="xsd:string" breakOrder="" fieldOrder="9"/>
+<element name="FLOOR_NUMBER" value="FLOOR_NUMBER" label="FLOOR_NUMBER" dataType="xsd:string" breakOrder="" fieldOrder="10"/>
+<element name="LONG_POSTAL_CODE" value="LONG_POSTAL_CODE" label="LONG_POSTAL_CODE" dataType="xsd:string" breakOrder="" fieldOrder="17"/>
+<element name="TIMEZONE_CODE" value="TIMEZONE_CODE" label="TIMEZONE_CODE" dataType="xsd:string" breakOrder="" fieldOrder="18"/>
+<element name="DQ_VALIDATION_LEVEL" value="DQ_VALIDATION_LEVEL" label="DQ_VALIDATION_LEVEL" dataType="xsd:integer" breakOrder="" fieldOrder="21"/>
+<element name="ADDL_ADDRESS_ATTRIBUTE1" value="ADDL_ADDRESS_ATTRIBUTE1" label="ADDL_ADDRESS_ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="22"/>
+<element name="ADDL_ADDRESS_ATTRIBUTE2" value="ADDL_ADDRESS_ATTRIBUTE2" label="ADDL_ADDRESS_ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="23"/>
+<element name="ADDL_ADDRESS_ATTRIBUTE3" value="ADDL_ADDRESS_ATTRIBUTE3" label="ADDL_ADDRESS_ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="24"/>
+<element name="ADDL_ADDRESS_ATTRIBUTE4" value="ADDL_ADDRESS_ATTRIBUTE4" label="ADDL_ADDRESS_ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="25"/>
+<element name="ADDL_ADDRESS_ATTRIBUTE5" value="ADDL_ADDRESS_ATTRIBUTE5" label="ADDL_ADDRESS_ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="26"/>
+<element name="ADDR_ATTRIBUTE_NUMBER1" value="ADDR_ATTRIBUTE_NUMBER1" label="ADDR_ATTRIBUTE_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="58"/>
+<element name="ADDR_ATTRIBUTE_NUMBER2" value="ADDR_ATTRIBUTE_NUMBER2" label="ADDR_ATTRIBUTE_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="59"/>
+<element name="ADDR_ATTRIBUTE_NUMBER3" value="ADDR_ATTRIBUTE_NUMBER3" label="ADDR_ATTRIBUTE_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="60"/>
+<element name="ADDR_ATTRIBUTE_NUMBER4" value="ADDR_ATTRIBUTE_NUMBER4" label="ADDR_ATTRIBUTE_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="61"/>
+<element name="ADDR_ATTRIBUTE_NUMBER5" value="ADDR_ATTRIBUTE_NUMBER5" label="ADDR_ATTRIBUTE_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="62"/>
+<element name="ADDR_ATTRIBUTE_NUMBER6" value="ADDR_ATTRIBUTE_NUMBER6" label="ADDR_ATTRIBUTE_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="63"/>
+<element name="ADDR_ATTRIBUTE_NUMBER7" value="ADDR_ATTRIBUTE_NUMBER7" label="ADDR_ATTRIBUTE_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="64"/>
+<element name="ADDR_ATTRIBUTE_NUMBER8" value="ADDR_ATTRIBUTE_NUMBER8" label="ADDR_ATTRIBUTE_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="65"/>
+<element name="ADDR_ATTRIBUTE_NUMBER9" value="ADDR_ATTRIBUTE_NUMBER9" label="ADDR_ATTRIBUTE_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="66"/>
+<element name="ADDR_ATTRIBUTE_NUMBER10" value="ADDR_ATTRIBUTE_NUMBER10" label="ADDR_ATTRIBUTE_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="67"/>
+<element name="ADDR_ATTRIBUTE_NUMBER11" value="ADDR_ATTRIBUTE_NUMBER11" label="ADDR_ATTRIBUTE_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="68"/>
+<element name="ADDR_ATTRIBUTE_NUMBER12" value="ADDR_ATTRIBUTE_NUMBER12" label="ADDR_ATTRIBUTE_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="69"/>
+<element name="ADDR_ATTRIBUTE_NUMBER13" value="ADDR_ATTRIBUTE_NUMBER13" label="ADDR_ATTRIBUTE_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="70"/>
+<element name="ADDR_ATTRIBUTE_NUMBER14" value="ADDR_ATTRIBUTE_NUMBER14" label="ADDR_ATTRIBUTE_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="71"/>
+<element name="ADDR_ATTRIBUTE_NUMBER15" value="ADDR_ATTRIBUTE_NUMBER15" label="ADDR_ATTRIBUTE_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="72"/>
+<element name="ADDR_ATTRIBUTE_NUMBER16" value="ADDR_ATTRIBUTE_NUMBER16" label="ADDR_ATTRIBUTE_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="73"/>
+<element name="ADDR_ATTRIBUTE_NUMBER17" value="ADDR_ATTRIBUTE_NUMBER17" label="ADDR_ATTRIBUTE_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="74"/>
+<element name="ADDR_ATTRIBUTE_NUMBER18" value="ADDR_ATTRIBUTE_NUMBER18" label="ADDR_ATTRIBUTE_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="75"/>
+<element name="ADDR_ATTRIBUTE_NUMBER19" value="ADDR_ATTRIBUTE_NUMBER19" label="ADDR_ATTRIBUTE_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="76"/>
+<element name="ADDR_ATTRIBUTE_NUMBER20" value="ADDR_ATTRIBUTE_NUMBER20" label="ADDR_ATTRIBUTE_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="77"/>
+<element name="ADDR_ATTRIBUTE_DATE1" value="ADDR_ATTRIBUTE_DATE1" label="ADDR_ATTRIBUTE_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="78" />
+<element name="ADDR_ATTRIBUTE_DATE2" value="ADDR_ATTRIBUTE_DATE2" label="ADDR_ATTRIBUTE_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="79" />
+<element name="ADDR_ATTRIBUTE_DATE3" value="ADDR_ATTRIBUTE_DATE3" label="ADDR_ATTRIBUTE_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="80" />
+<element name="ADDR_ATTRIBUTE_DATE4" value="ADDR_ATTRIBUTE_DATE4" label="ADDR_ATTRIBUTE_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="81" />
+<element name="ADDR_ATTRIBUTE_DATE5" value="ADDR_ATTRIBUTE_DATE5" label="ADDR_ATTRIBUTE_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="82" />
+<element name="ADDR_ATTRIBUTE_DATE6" value="ADDR_ATTRIBUTE_DATE6" label="ADDR_ATTRIBUTE_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="83" />
+<element name="ADDR_ATTRIBUTE_DATE7" value="ADDR_ATTRIBUTE_DATE7" label="ADDR_ATTRIBUTE_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="84" />
+<element name="ADDR_ATTRIBUTE_DATE8" value="ADDR_ATTRIBUTE_DATE8" label="ADDR_ATTRIBUTE_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="85" />
+<element name="ADDR_ATTRIBUTE_DATE9" value="ADDR_ATTRIBUTE_DATE9" label="ADDR_ATTRIBUTE_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="86" />
+<element name="ADDR_ATTRIBUTE_DATE10" value="ADDR_ATTRIBUTE_DATE10" label="ADDR_ATTRIBUTE_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="87" />
+<element name="ADDR_ATTRIBUTE_DATE11" value="ADDR_ATTRIBUTE_DATE11" label="ADDR_ATTRIBUTE_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="88" />
+<element name="ADDR_ATTRIBUTE_DATE12" value="ADDR_ATTRIBUTE_DATE12" label="ADDR_ATTRIBUTE_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="89" />
+<element name="ADDR_ATTRIBUTE_DATE13" value="ADDR_ATTRIBUTE_DATE13" label="ADDR_ATTRIBUTE_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="90" />
+<element name="ADDR_ATTRIBUTE_DATE14" value="ADDR_ATTRIBUTE_DATE14" label="ADDR_ATTRIBUTE_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="91" />
+<element name="ADDR_ATTRIBUTE_DATE15" value="ADDR_ATTRIBUTE_DATE15" label="ADDR_ATTRIBUTE_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="92" />
+</group>
+<group name="PER_PEOPLE_X" label="PER_PEOPLE_X" source="PER_PEOPLE_X">
+<element name="APPLICANT_NUMBER" value="APPLICANT_NUMBER" label="APPLICANT_NUMBER" dataType="xsd:string" breakOrder="" fieldOrder="1"/>
+<element name="ATTRIBUTE_CATEGORY" value="ATTRIBUTE_CATEGORY" label="ATTRIBUTE_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="2"/>
+<element name="ATTRIBUTE1" value="ATTRIBUTE1" label="ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="3"/>
+<element name="ATTRIBUTE2" value="ATTRIBUTE2" label="ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="4"/>
+<element name="ATTRIBUTE3" value="ATTRIBUTE3" label="ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="5"/>
+<element name="ATTRIBUTE4" value="ATTRIBUTE4" label="ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="6"/>
+<element name="ATTRIBUTE5" value="ATTRIBUTE5" label="ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="7"/>
+<element name="ATTRIBUTE6" value="ATTRIBUTE6" label="ATTRIBUTE6" dataType="xsd:string" breakOrder="" fieldOrder="8"/>
+<element name="ATTRIBUTE7" value="ATTRIBUTE7" label="ATTRIBUTE7" dataType="xsd:string" breakOrder="" fieldOrder="9"/>
+<element name="ATTRIBUTE8" value="ATTRIBUTE8" label="ATTRIBUTE8" dataType="xsd:string" breakOrder="" fieldOrder="10"/>
+<element name="ATTRIBUTE9" value="ATTRIBUTE9" label="ATTRIBUTE9" dataType="xsd:string" breakOrder="" fieldOrder="11"/>
+<element name="ATTRIBUTE10" value="ATTRIBUTE10" label="ATTRIBUTE10" dataType="xsd:string" breakOrder="" fieldOrder="12"/>
+<element name="ATTRIBUTE11" value="ATTRIBUTE11" label="ATTRIBUTE11" dataType="xsd:string" breakOrder="" fieldOrder="13"/>
+<element name="ATTRIBUTE12" value="ATTRIBUTE12" label="ATTRIBUTE12" dataType="xsd:string" breakOrder="" fieldOrder="14"/>
+<element name="ATTRIBUTE13" value="ATTRIBUTE13" label="ATTRIBUTE13" dataType="xsd:string" breakOrder="" fieldOrder="15"/>
+<element name="ATTRIBUTE14" value="ATTRIBUTE14" label="ATTRIBUTE14" dataType="xsd:string" breakOrder="" fieldOrder="16"/>
+<element name="ATTRIBUTE15" value="ATTRIBUTE15" label="ATTRIBUTE15" dataType="xsd:string" breakOrder="" fieldOrder="17"/>
+<element name="ATTRIBUTE16" value="ATTRIBUTE16" label="ATTRIBUTE16" dataType="xsd:string" breakOrder="" fieldOrder="18"/>
+<element name="ATTRIBUTE17" value="ATTRIBUTE17" label="ATTRIBUTE17" dataType="xsd:string" breakOrder="" fieldOrder="19"/>
+<element name="ATTRIBUTE18" value="ATTRIBUTE18" label="ATTRIBUTE18" dataType="xsd:string" breakOrder="" fieldOrder="20"/>
+<element name="ATTRIBUTE19" value="ATTRIBUTE19" label="ATTRIBUTE19" dataType="xsd:string" breakOrder="" fieldOrder="21"/>
+<element name="ATTRIBUTE20" value="ATTRIBUTE20" label="ATTRIBUTE20" dataType="xsd:string" breakOrder="" fieldOrder="22"/>
+<element name="ATTRIBUTE21" value="ATTRIBUTE21" label="ATTRIBUTE21" dataType="xsd:string" breakOrder="" fieldOrder="23"/>
+<element name="ATTRIBUTE22" value="ATTRIBUTE22" label="ATTRIBUTE22" dataType="xsd:string" breakOrder="" fieldOrder="24"/>
+<element name="ATTRIBUTE23" value="ATTRIBUTE23" label="ATTRIBUTE23" dataType="xsd:string" breakOrder="" fieldOrder="25"/>
+<element name="ATTRIBUTE24" value="ATTRIBUTE24" label="ATTRIBUTE24" dataType="xsd:string" breakOrder="" fieldOrder="26"/>
+<element name="ATTRIBUTE25" value="ATTRIBUTE25" label="ATTRIBUTE25" dataType="xsd:string" breakOrder="" fieldOrder="27"/>
+<element name="ATTRIBUTE26" value="ATTRIBUTE26" label="ATTRIBUTE26" dataType="xsd:string" breakOrder="" fieldOrder="28"/>
+<element name="ATTRIBUTE27" value="ATTRIBUTE27" label="ATTRIBUTE27" dataType="xsd:string" breakOrder="" fieldOrder="29"/>
+<element name="ATTRIBUTE28" value="ATTRIBUTE28" label="ATTRIBUTE28" dataType="xsd:string" breakOrder="" fieldOrder="30"/>
+<element name="ATTRIBUTE29" value="ATTRIBUTE29" label="ATTRIBUTE29" dataType="xsd:string" breakOrder="" fieldOrder="31"/>
+<element name="ATTRIBUTE30" value="ATTRIBUTE30" label="ATTRIBUTE30" dataType="xsd:string" breakOrder="" fieldOrder="32"/>
+<element name="BLOOD_TYPE" value="BLOOD_TYPE" label="BLOOD_TYPE" dataType="xsd:string" breakOrder="" fieldOrder="33"/>
+<element name="BUSINESS_GROUP_ID" value="BUSINESS_GROUP_ID" label="BUSINESS_GROUP_ID" dataType="xsd:double" breakOrder="" fieldOrder="34"/>
+<element name="COUNTRY_OF_BIRTH" value="COUNTRY_OF_BIRTH" label="COUNTRY_OF_BIRTH" dataType="xsd:string" breakOrder="" fieldOrder="35"/>
+<element name="CREATED_BY" value="CREATED_BY" label="CREATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="36"/>
+<element name="CREATION_DATE" value="CREATION_DATE" label="CREATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="37" />
+<element name="DATE_OF_BIRTH" value="DATE_OF_BIRTH" label="DATE_OF_BIRTH" dataType="xsd:date" breakOrder="" fieldOrder="38" />
+<element name="DATE_OF_DEATH" value="DATE_OF_DEATH" label="DATE_OF_DEATH" dataType="xsd:date" breakOrder="" fieldOrder="39" />
+<element name="EFFECTIVE_END_DATE" value="EFFECTIVE_END_DATE" label="EFFECTIVE_END_DATE" dataType="xsd:date" breakOrder="" fieldOrder="40" />
+<element name="EFFECTIVE_START_DATE" value="EFFECTIVE_START_DATE" label="EFFECTIVE_START_DATE" dataType="xsd:date" breakOrder="" fieldOrder="41" />
+<element name="LAST_UPDATE_DATE" value="LAST_UPDATE_DATE" label="LAST_UPDATE_DATE" dataType="xsd:date" breakOrder="" fieldOrder="42" />
+<element name="LAST_UPDATE_LOGIN" value="LAST_UPDATE_LOGIN" label="LAST_UPDATE_LOGIN" dataType="xsd:string" breakOrder="" fieldOrder="43"/>
+<element name="LAST_UPDATED_BY" value="LAST_UPDATED_BY" label="LAST_UPDATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="44"/>
+<element name="OBJECT_VERSION_NUMBER" value="OBJECT_VERSION_NUMBER" label="OBJECT_VERSION_NUMBER" dataType="xsd:integer" breakOrder="" fieldOrder="45"/>
+<element name="PERSON_ID" value="PERSON_ID" label="PERSON_ID" dataType="xsd:double" breakOrder="" fieldOrder="46"/>
+<element name="PERSON_NUMBER" value="PERSON_NUMBER" label="PERSON_NUMBER" dataType="xsd:string" breakOrder="" fieldOrder="47"/>
+<element name="PRIMARY_EMAIL_ID" value="PRIMARY_EMAIL_ID" label="PRIMARY_EMAIL_ID" dataType="xsd:double" breakOrder="" fieldOrder="48"/>
+<element name="PRIMARY_PHONE_ID" value="PRIMARY_PHONE_ID" label="PRIMARY_PHONE_ID" dataType="xsd:double" breakOrder="" fieldOrder="49"/>
+<element name="REGION_OF_BIRTH" value="REGION_OF_BIRTH" label="REGION_OF_BIRTH" dataType="xsd:string" breakOrder="" fieldOrder="50"/>
+<element name="START_DATE" value="START_DATE" label="START_DATE" dataType="xsd:date" breakOrder="" fieldOrder="51" />
+<element name="TOWN_OF_BIRTH" value="TOWN_OF_BIRTH" label="TOWN_OF_BIRTH" dataType="xsd:string" breakOrder="" fieldOrder="52"/>
+<element name="WAIVE_DATA_PROTECT" value="WAIVE_DATA_PROTECT" label="WAIVE_DATA_PROTECT" dataType="xsd:string" breakOrder="" fieldOrder="53"/>
+<element name="ATTRIBUTE31" value="ATTRIBUTE31" label="ATTRIBUTE31" dataType="xsd:string" breakOrder="" fieldOrder="54"/>
+<element name="ATTRIBUTE32" value="ATTRIBUTE32" label="ATTRIBUTE32" dataType="xsd:string" breakOrder="" fieldOrder="55"/>
+<element name="ATTRIBUTE33" value="ATTRIBUTE33" label="ATTRIBUTE33" dataType="xsd:string" breakOrder="" fieldOrder="56"/>
+<element name="ATTRIBUTE34" value="ATTRIBUTE34" label="ATTRIBUTE34" dataType="xsd:string" breakOrder="" fieldOrder="57"/>
+<element name="ATTRIBUTE35" value="ATTRIBUTE35" label="ATTRIBUTE35" dataType="xsd:string" breakOrder="" fieldOrder="58"/>
+<element name="ATTRIBUTE36" value="ATTRIBUTE36" label="ATTRIBUTE36" dataType="xsd:string" breakOrder="" fieldOrder="59"/>
+<element name="ATTRIBUTE37" value="ATTRIBUTE37" label="ATTRIBUTE37" dataType="xsd:string" breakOrder="" fieldOrder="60"/>
+<element name="ATTRIBUTE38" value="ATTRIBUTE38" label="ATTRIBUTE38" dataType="xsd:string" breakOrder="" fieldOrder="61"/>
+<element name="ATTRIBUTE39" value="ATTRIBUTE39" label="ATTRIBUTE39" dataType="xsd:string" breakOrder="" fieldOrder="62"/>
+<element name="ATTRIBUTE40" value="ATTRIBUTE40" label="ATTRIBUTE40" dataType="xsd:string" breakOrder="" fieldOrder="63"/>
+<element name="ATTRIBUTE41" value="ATTRIBUTE41" label="ATTRIBUTE41" dataType="xsd:string" breakOrder="" fieldOrder="64"/>
+<element name="ATTRIBUTE42" value="ATTRIBUTE42" label="ATTRIBUTE42" dataType="xsd:string" breakOrder="" fieldOrder="65"/>
+<element name="ATTRIBUTE43" value="ATTRIBUTE43" label="ATTRIBUTE43" dataType="xsd:string" breakOrder="" fieldOrder="66"/>
+<element name="ATTRIBUTE44" value="ATTRIBUTE44" label="ATTRIBUTE44" dataType="xsd:string" breakOrder="" fieldOrder="67"/>
+<element name="ATTRIBUTE45" value="ATTRIBUTE45" label="ATTRIBUTE45" dataType="xsd:string" breakOrder="" fieldOrder="68"/>
+<element name="ATTRIBUTE46" value="ATTRIBUTE46" label="ATTRIBUTE46" dataType="xsd:string" breakOrder="" fieldOrder="69"/>
+<element name="ATTRIBUTE47" value="ATTRIBUTE47" label="ATTRIBUTE47" dataType="xsd:string" breakOrder="" fieldOrder="70"/>
+<element name="ATTRIBUTE48" value="ATTRIBUTE48" label="ATTRIBUTE48" dataType="xsd:string" breakOrder="" fieldOrder="71"/>
+<element name="ATTRIBUTE49" value="ATTRIBUTE49" label="ATTRIBUTE49" dataType="xsd:string" breakOrder="" fieldOrder="72"/>
+<element name="ATTRIBUTE50" value="ATTRIBUTE50" label="ATTRIBUTE50" dataType="xsd:string" breakOrder="" fieldOrder="73"/>
+<element name="ATTRIBUTE_NUMBER1" value="ATTRIBUTE_NUMBER1" label="ATTRIBUTE_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="74"/>
+<element name="ATTRIBUTE_NUMBER2" value="ATTRIBUTE_NUMBER2" label="ATTRIBUTE_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="75"/>
+<element name="ATTRIBUTE_NUMBER3" value="ATTRIBUTE_NUMBER3" label="ATTRIBUTE_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="76"/>
+<element name="ATTRIBUTE_NUMBER4" value="ATTRIBUTE_NUMBER4" label="ATTRIBUTE_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="77"/>
+<element name="ATTRIBUTE_NUMBER5" value="ATTRIBUTE_NUMBER5" label="ATTRIBUTE_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="78"/>
+<element name="ATTRIBUTE_NUMBER6" value="ATTRIBUTE_NUMBER6" label="ATTRIBUTE_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="79"/>
+<element name="ATTRIBUTE_NUMBER7" value="ATTRIBUTE_NUMBER7" label="ATTRIBUTE_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="80"/>
+<element name="ATTRIBUTE_NUMBER8" value="ATTRIBUTE_NUMBER8" label="ATTRIBUTE_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="81"/>
+<element name="ATTRIBUTE_NUMBER9" value="ATTRIBUTE_NUMBER9" label="ATTRIBUTE_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="82"/>
+<element name="ATTRIBUTE_NUMBER10" value="ATTRIBUTE_NUMBER10" label="ATTRIBUTE_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="83"/>
+<element name="ATTRIBUTE_NUMBER11" value="ATTRIBUTE_NUMBER11" label="ATTRIBUTE_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="84"/>
+<element name="ATTRIBUTE_NUMBER12" value="ATTRIBUTE_NUMBER12" label="ATTRIBUTE_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="85"/>
+<element name="ATTRIBUTE_NUMBER13" value="ATTRIBUTE_NUMBER13" label="ATTRIBUTE_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="86"/>
+<element name="ATTRIBUTE_NUMBER14" value="ATTRIBUTE_NUMBER14" label="ATTRIBUTE_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="87"/>
+<element name="ATTRIBUTE_NUMBER15" value="ATTRIBUTE_NUMBER15" label="ATTRIBUTE_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="88"/>
+<element name="ATTRIBUTE_NUMBER16" value="ATTRIBUTE_NUMBER16" label="ATTRIBUTE_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="89"/>
+<element name="ATTRIBUTE_NUMBER17" value="ATTRIBUTE_NUMBER17" label="ATTRIBUTE_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="90"/>
+<element name="ATTRIBUTE_NUMBER18" value="ATTRIBUTE_NUMBER18" label="ATTRIBUTE_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="91"/>
+<element name="ATTRIBUTE_NUMBER19" value="ATTRIBUTE_NUMBER19" label="ATTRIBUTE_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="92"/>
+<element name="ATTRIBUTE_NUMBER20" value="ATTRIBUTE_NUMBER20" label="ATTRIBUTE_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="93"/>
+<element name="ATTRIBUTE_DATE1" value="ATTRIBUTE_DATE1" label="ATTRIBUTE_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="94" />
+<element name="ATTRIBUTE_DATE2" value="ATTRIBUTE_DATE2" label="ATTRIBUTE_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="95" />
+<element name="ATTRIBUTE_DATE3" value="ATTRIBUTE_DATE3" label="ATTRIBUTE_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="96" />
+<element name="ATTRIBUTE_DATE4" value="ATTRIBUTE_DATE4" label="ATTRIBUTE_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="97" />
+<element name="ATTRIBUTE_DATE5" value="ATTRIBUTE_DATE5" label="ATTRIBUTE_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="98" />
+<element name="ATTRIBUTE_DATE6" value="ATTRIBUTE_DATE6" label="ATTRIBUTE_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="99" />
+<element name="ATTRIBUTE_DATE7" value="ATTRIBUTE_DATE7" label="ATTRIBUTE_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="100" />
+<element name="ATTRIBUTE_DATE8" value="ATTRIBUTE_DATE8" label="ATTRIBUTE_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="101" />
+<element name="ATTRIBUTE_DATE9" value="ATTRIBUTE_DATE9" label="ATTRIBUTE_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="102" />
+<element name="ATTRIBUTE_DATE10" value="ATTRIBUTE_DATE10" label="ATTRIBUTE_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="103" />
+<element name="ATTRIBUTE_DATE11" value="ATTRIBUTE_DATE11" label="ATTRIBUTE_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="104" />
+<element name="ATTRIBUTE_DATE12" value="ATTRIBUTE_DATE12" label="ATTRIBUTE_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="105" />
+<element name="ATTRIBUTE_DATE13" value="ATTRIBUTE_DATE13" label="ATTRIBUTE_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="106" />
+<element name="ATTRIBUTE_DATE14" value="ATTRIBUTE_DATE14" label="ATTRIBUTE_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="107" />
+<element name="ATTRIBUTE_DATE15" value="ATTRIBUTE_DATE15" label="ATTRIBUTE_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="108" />
+<element name="PER_ATTRIBUTE1" value="PER_ATTRIBUTE1" label="PER_ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="109"/>
+<element name="PER_ATTRIBUTE2" value="PER_ATTRIBUTE2" label="PER_ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="110"/>
+<element name="PER_ATTRIBUTE3" value="PER_ATTRIBUTE3" label="PER_ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="111"/>
+<element name="PER_ATTRIBUTE4" value="PER_ATTRIBUTE4" label="PER_ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="112"/>
+<element name="PER_ATTRIBUTE5" value="PER_ATTRIBUTE5" label="PER_ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="113"/>
+<element name="PER_ATTRIBUTE6" value="PER_ATTRIBUTE6" label="PER_ATTRIBUTE6" dataType="xsd:string" breakOrder="" fieldOrder="114"/>
+<element name="PER_ATTRIBUTE7" value="PER_ATTRIBUTE7" label="PER_ATTRIBUTE7" dataType="xsd:string" breakOrder="" fieldOrder="115"/>
+<element name="PER_ATTRIBUTE8" value="PER_ATTRIBUTE8" label="PER_ATTRIBUTE8" dataType="xsd:string" breakOrder="" fieldOrder="116"/>
+<element name="PER_ATTRIBUTE9" value="PER_ATTRIBUTE9" label="PER_ATTRIBUTE9" dataType="xsd:string" breakOrder="" fieldOrder="117"/>
+<element name="PER_ATTRIBUTE10" value="PER_ATTRIBUTE10" label="PER_ATTRIBUTE10" dataType="xsd:string" breakOrder="" fieldOrder="118"/>
+<element name="PER_ATTRIBUTE11" value="PER_ATTRIBUTE11" label="PER_ATTRIBUTE11" dataType="xsd:string" breakOrder="" fieldOrder="119"/>
+<element name="PER_ATTRIBUTE12" value="PER_ATTRIBUTE12" label="PER_ATTRIBUTE12" dataType="xsd:string" breakOrder="" fieldOrder="120"/>
+<element name="PER_ATTRIBUTE13" value="PER_ATTRIBUTE13" label="PER_ATTRIBUTE13" dataType="xsd:string" breakOrder="" fieldOrder="121"/>
+<element name="PER_ATTRIBUTE14" value="PER_ATTRIBUTE14" label="PER_ATTRIBUTE14" dataType="xsd:string" breakOrder="" fieldOrder="122"/>
+<element name="PER_ATTRIBUTE15" value="PER_ATTRIBUTE15" label="PER_ATTRIBUTE15" dataType="xsd:string" breakOrder="" fieldOrder="123"/>
+<element name="PER_ATTRIBUTE16" value="PER_ATTRIBUTE16" label="PER_ATTRIBUTE16" dataType="xsd:string" breakOrder="" fieldOrder="124"/>
+<element name="PER_ATTRIBUTE17" value="PER_ATTRIBUTE17" label="PER_ATTRIBUTE17" dataType="xsd:string" breakOrder="" fieldOrder="125"/>
+<element name="PER_ATTRIBUTE18" value="PER_ATTRIBUTE18" label="PER_ATTRIBUTE18" dataType="xsd:string" breakOrder="" fieldOrder="126"/>
+<element name="PER_ATTRIBUTE19" value="PER_ATTRIBUTE19" label="PER_ATTRIBUTE19" dataType="xsd:string" breakOrder="" fieldOrder="127"/>
+<element name="PER_ATTRIBUTE20" value="PER_ATTRIBUTE20" label="PER_ATTRIBUTE20" dataType="xsd:string" breakOrder="" fieldOrder="128"/>
+<element name="PER_ATTRIBUTE21" value="PER_ATTRIBUTE21" label="PER_ATTRIBUTE21" dataType="xsd:string" breakOrder="" fieldOrder="129"/>
+<element name="PER_ATTRIBUTE22" value="PER_ATTRIBUTE22" label="PER_ATTRIBUTE22" dataType="xsd:string" breakOrder="" fieldOrder="130"/>
+<element name="PER_ATTRIBUTE23" value="PER_ATTRIBUTE23" label="PER_ATTRIBUTE23" dataType="xsd:string" breakOrder="" fieldOrder="131"/>
+<element name="PER_ATTRIBUTE24" value="PER_ATTRIBUTE24" label="PER_ATTRIBUTE24" dataType="xsd:string" breakOrder="" fieldOrder="132"/>
+<element name="PER_ATTRIBUTE25" value="PER_ATTRIBUTE25" label="PER_ATTRIBUTE25" dataType="xsd:string" breakOrder="" fieldOrder="133"/>
+<element name="PER_ATTRIBUTE26" value="PER_ATTRIBUTE26" label="PER_ATTRIBUTE26" dataType="xsd:string" breakOrder="" fieldOrder="134"/>
+<element name="PER_ATTRIBUTE27" value="PER_ATTRIBUTE27" label="PER_ATTRIBUTE27" dataType="xsd:string" breakOrder="" fieldOrder="135"/>
+<element name="PER_ATTRIBUTE28" value="PER_ATTRIBUTE28" label="PER_ATTRIBUTE28" dataType="xsd:string" breakOrder="" fieldOrder="136"/>
+<element name="PER_ATTRIBUTE29" value="PER_ATTRIBUTE29" label="PER_ATTRIBUTE29" dataType="xsd:string" breakOrder="" fieldOrder="137"/>
+<element name="PER_ATTRIBUTE30" value="PER_ATTRIBUTE30" label="PER_ATTRIBUTE30" dataType="xsd:string" breakOrder="" fieldOrder="138"/>
+<element name="PER_ATTRIBUTE_NUMBER1" value="PER_ATTRIBUTE_NUMBER1" label="PER_ATTRIBUTE_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="139"/>
+<element name="PER_ATTRIBUTE_NUMBER2" value="PER_ATTRIBUTE_NUMBER2" label="PER_ATTRIBUTE_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="140"/>
+<element name="PER_ATTRIBUTE_NUMBER3" value="PER_ATTRIBUTE_NUMBER3" label="PER_ATTRIBUTE_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="141"/>
+<element name="PER_ATTRIBUTE_NUMBER4" value="PER_ATTRIBUTE_NUMBER4" label="PER_ATTRIBUTE_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="142"/>
+<element name="PER_ATTRIBUTE_NUMBER5" value="PER_ATTRIBUTE_NUMBER5" label="PER_ATTRIBUTE_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="143"/>
+<element name="PER_ATTRIBUTE_NUMBER6" value="PER_ATTRIBUTE_NUMBER6" label="PER_ATTRIBUTE_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="144"/>
+<element name="PER_ATTRIBUTE_NUMBER7" value="PER_ATTRIBUTE_NUMBER7" label="PER_ATTRIBUTE_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="145"/>
+<element name="PER_ATTRIBUTE_NUMBER8" value="PER_ATTRIBUTE_NUMBER8" label="PER_ATTRIBUTE_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="146"/>
+<element name="PER_ATTRIBUTE_NUMBER9" value="PER_ATTRIBUTE_NUMBER9" label="PER_ATTRIBUTE_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="147"/>
+<element name="PER_ATTRIBUTE_NUMBE10" value="PER_ATTRIBUTE_NUMBE10" label="PER_ATTRIBUTE_NUMBE10" dataType="xsd:double" breakOrder="" fieldOrder="148"/>
+<element name="PER_ATTRIBUTE_NUMBE11" value="PER_ATTRIBUTE_NUMBE11" label="PER_ATTRIBUTE_NUMBE11" dataType="xsd:double" breakOrder="" fieldOrder="149"/>
+<element name="PER_ATTRIBUTE_NUMBE12" value="PER_ATTRIBUTE_NUMBE12" label="PER_ATTRIBUTE_NUMBE12" dataType="xsd:double" breakOrder="" fieldOrder="150"/>
+<element name="PER_ATTRIBUTE_NUMBE13" value="PER_ATTRIBUTE_NUMBE13" label="PER_ATTRIBUTE_NUMBE13" dataType="xsd:double" breakOrder="" fieldOrder="151"/>
+<element name="PER_ATTRIBUTE_NUMBE14" value="PER_ATTRIBUTE_NUMBE14" label="PER_ATTRIBUTE_NUMBE14" dataType="xsd:double" breakOrder="" fieldOrder="152"/>
+<element name="PER_ATTRIBUTE_NUMBE15" value="PER_ATTRIBUTE_NUMBE15" label="PER_ATTRIBUTE_NUMBE15" dataType="xsd:double" breakOrder="" fieldOrder="153"/>
+<element name="PER_ATTRIBUTE_NUMBE16" value="PER_ATTRIBUTE_NUMBE16" label="PER_ATTRIBUTE_NUMBE16" dataType="xsd:double" breakOrder="" fieldOrder="154"/>
+<element name="PER_ATTRIBUTE_NUMBE17" value="PER_ATTRIBUTE_NUMBE17" label="PER_ATTRIBUTE_NUMBE17" dataType="xsd:double" breakOrder="" fieldOrder="155"/>
+<element name="PER_ATTRIBUTE_NUMBE18" value="PER_ATTRIBUTE_NUMBE18" label="PER_ATTRIBUTE_NUMBE18" dataType="xsd:double" breakOrder="" fieldOrder="156"/>
+<element name="PER_ATTRIBUTE_NUMBER19" value="PER_ATTRIBUTE_NUMBER19" label="PER_ATTRIBUTE_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="157"/>
+<element name="PER_ATTRIBUTE_NUMBER20" value="PER_ATTRIBUTE_NUMBER20" label="PER_ATTRIBUTE_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="158"/>
+<element name="PER_ATTRIBUTE_DATE1" value="PER_ATTRIBUTE_DATE1" label="PER_ATTRIBUTE_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="159" />
+<element name="PER_ATTRIBUTE_DATE2" value="PER_ATTRIBUTE_DATE2" label="PER_ATTRIBUTE_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="160" />
+<element name="PER_ATTRIBUTE_DATE3" value="PER_ATTRIBUTE_DATE3" label="PER_ATTRIBUTE_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="161" />
+<element name="PER_ATTRIBUTE_DATE4" value="PER_ATTRIBUTE_DATE4" label="PER_ATTRIBUTE_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="162" />
+<element name="PER_ATTRIBUTE_DATE5" value="PER_ATTRIBUTE_DATE5" label="PER_ATTRIBUTE_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="163" />
+<element name="PER_ATTRIBUTE_DATE6" value="PER_ATTRIBUTE_DATE6" label="PER_ATTRIBUTE_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="164" />
+<element name="PER_ATTRIBUTE_DATE7" value="PER_ATTRIBUTE_DATE7" label="PER_ATTRIBUTE_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="165" />
+<element name="PER_ATTRIBUTE_DATE8" value="PER_ATTRIBUTE_DATE8" label="PER_ATTRIBUTE_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="166" />
+<element name="PER_ATTRIBUTE_DATE9" value="PER_ATTRIBUTE_DATE9" label="PER_ATTRIBUTE_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="167" />
+<element name="PER_ATTRIBUTE_DATE10" value="PER_ATTRIBUTE_DATE10" label="PER_ATTRIBUTE_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="168" />
+<element name="PER_ATTRIBUTE_DATE11" value="PER_ATTRIBUTE_DATE11" label="PER_ATTRIBUTE_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="169" />
+<element name="PER_ATTRIBUTE_DATE12" value="PER_ATTRIBUTE_DATE12" label="PER_ATTRIBUTE_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="170" />
+<element name="PER_ATTRIBUTE_DATE13" value="PER_ATTRIBUTE_DATE13" label="PER_ATTRIBUTE_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="171" />
+<element name="PER_ATTRIBUTE_DATE14" value="PER_ATTRIBUTE_DATE14" label="PER_ATTRIBUTE_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="172" />
+<element name="PER_ATTRIBUTE_DATE15" value="PER_ATTRIBUTE_DATE15" label="PER_ATTRIBUTE_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="173" />
+</group>
+<group name="PER_PERIODS_OF_SERVICE" label="PER_PERIODS_OF_SERVICE" source="PER_PERIODS_OF_SERVICE">
+<element name="PERIOD_OF_SERVICE_ID" value="PERIOD_OF_SERVICE_ID" label="PERIOD_OF_SERVICE_ID" dataType="xsd:double" breakOrder="" fieldOrder="1"/>
+<element name="BUSINESS_GROUP_ID" value="BUSINESS_GROUP_ID" label="BUSINESS_GROUP_ID" dataType="xsd:double" breakOrder="" fieldOrder="2"/>
+<element name="TERMINATION_ACCEPTED_PERSON_ID" value="TERMINATION_ACCEPTED_PERSON_ID" label="TERMINATION_ACCEPTED_PERSON_ID" dataType="xsd:double" breakOrder="" fieldOrder="3"/>
+<element name="PERSON_ID" value="PERSON_ID" label="PERSON_ID" dataType="xsd:double" breakOrder="" fieldOrder="4"/>
+<element name="DATE_START" value="DATE_START" label="DATE_START" dataType="xsd:date" breakOrder="" fieldOrder="5" />
+<element name="ACCEPTED_TERMINATION_DATE" value="ACCEPTED_TERMINATION_DATE" label="ACCEPTED_TERMINATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="6" />
+<element name="ACTUAL_TERMINATION_DATE" value="ACTUAL_TERMINATION_DATE" label="ACTUAL_TERMINATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="7" />
+<element name="NOTIFIED_TERMINATION_DATE" value="NOTIFIED_TERMINATION_DATE" label="NOTIFIED_TERMINATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="8" />
+<element name="PROJECTED_TERMINATION_DATE" value="PROJECTED_TERMINATION_DATE" label="PROJECTED_TERMINATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="9" />
+<element name="ATTRIBUTE_CATEGORY" value="ATTRIBUTE_CATEGORY" label="ATTRIBUTE_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="10"/>
+<element name="ATTRIBUTE1" value="ATTRIBUTE1" label="ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="11"/>
+<element name="ATTRIBUTE2" value="ATTRIBUTE2" label="ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="12"/>
+<element name="ATTRIBUTE3" value="ATTRIBUTE3" label="ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="13"/>
+<element name="ATTRIBUTE4" value="ATTRIBUTE4" label="ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="14"/>
+<element name="ATTRIBUTE5" value="ATTRIBUTE5" label="ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="15"/>
+<element name="ATTRIBUTE6" value="ATTRIBUTE6" label="ATTRIBUTE6" dataType="xsd:string" breakOrder="" fieldOrder="16"/>
+<element name="ATTRIBUTE7" value="ATTRIBUTE7" label="ATTRIBUTE7" dataType="xsd:string" breakOrder="" fieldOrder="17"/>
+<element name="ATTRIBUTE8" value="ATTRIBUTE8" label="ATTRIBUTE8" dataType="xsd:string" breakOrder="" fieldOrder="18"/>
+<element name="ATTRIBUTE9" value="ATTRIBUTE9" label="ATTRIBUTE9" dataType="xsd:string" breakOrder="" fieldOrder="19"/>
+<element name="ATTRIBUTE10" value="ATTRIBUTE10" label="ATTRIBUTE10" dataType="xsd:string" breakOrder="" fieldOrder="20"/>
+<element name="ATTRIBUTE11" value="ATTRIBUTE11" label="ATTRIBUTE11" dataType="xsd:string" breakOrder="" fieldOrder="21"/>
+<element name="ATTRIBUTE12" value="ATTRIBUTE12" label="ATTRIBUTE12" dataType="xsd:string" breakOrder="" fieldOrder="22"/>
+<element name="ATTRIBUTE13" value="ATTRIBUTE13" label="ATTRIBUTE13" dataType="xsd:string" breakOrder="" fieldOrder="23"/>
+<element name="ATTRIBUTE14" value="ATTRIBUTE14" label="ATTRIBUTE14" dataType="xsd:string" breakOrder="" fieldOrder="24"/>
+<element name="ATTRIBUTE15" value="ATTRIBUTE15" label="ATTRIBUTE15" dataType="xsd:string" breakOrder="" fieldOrder="25"/>
+<element name="ATTRIBUTE16" value="ATTRIBUTE16" label="ATTRIBUTE16" dataType="xsd:string" breakOrder="" fieldOrder="26"/>
+<element name="ATTRIBUTE17" value="ATTRIBUTE17" label="ATTRIBUTE17" dataType="xsd:string" breakOrder="" fieldOrder="27"/>
+<element name="ATTRIBUTE18" value="ATTRIBUTE18" label="ATTRIBUTE18" dataType="xsd:string" breakOrder="" fieldOrder="28"/>
+<element name="ATTRIBUTE19" value="ATTRIBUTE19" label="ATTRIBUTE19" dataType="xsd:string" breakOrder="" fieldOrder="29"/>
+<element name="ATTRIBUTE20" value="ATTRIBUTE20" label="ATTRIBUTE20" dataType="xsd:string" breakOrder="" fieldOrder="30"/>
+<element name="LAST_UPDATE_DATE" value="LAST_UPDATE_DATE" label="LAST_UPDATE_DATE" dataType="xsd:date" breakOrder="" fieldOrder="31" />
+<element name="LAST_UPDATED_BY" value="LAST_UPDATED_BY" label="LAST_UPDATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="32"/>
+<element name="LAST_UPDATE_LOGIN" value="LAST_UPDATE_LOGIN" label="LAST_UPDATE_LOGIN" dataType="xsd:string" breakOrder="" fieldOrder="33"/>
+<element name="CREATED_BY" value="CREATED_BY" label="CREATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="34"/>
+<element name="CREATION_DATE" value="CREATION_DATE" label="CREATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="35" />
+<element name="OBJECT_VERSION_NUMBER" value="OBJECT_VERSION_NUMBER" label="OBJECT_VERSION_NUMBER" dataType="xsd:integer" breakOrder="" fieldOrder="36"/>
+<element name="ADJUSTED_SVC_DATE" value="ADJUSTED_SVC_DATE" label="ADJUSTED_SVC_DATE" dataType="xsd:date" breakOrder="" fieldOrder="37" />
+<element name="PDS_INFORMATION_CATEGORY" value="PDS_INFORMATION_CATEGORY" label="PDS_INFORMATION_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="38"/>
+<element name="PDS_INFORMATION1" value="PDS_INFORMATION1" label="PDS_INFORMATION1" dataType="xsd:string" breakOrder="" fieldOrder="39"/>
+<element name="PDS_INFORMATION2" value="PDS_INFORMATION2" label="PDS_INFORMATION2" dataType="xsd:string" breakOrder="" fieldOrder="40"/>
+<element name="PDS_INFORMATION3" value="PDS_INFORMATION3" label="PDS_INFORMATION3" dataType="xsd:string" breakOrder="" fieldOrder="41"/>
+<element name="PDS_INFORMATION4" value="PDS_INFORMATION4" label="PDS_INFORMATION4" dataType="xsd:string" breakOrder="" fieldOrder="42"/>
+<element name="PDS_INFORMATION5" value="PDS_INFORMATION5" label="PDS_INFORMATION5" dataType="xsd:string" breakOrder="" fieldOrder="43"/>
+<element name="PDS_INFORMATION6" value="PDS_INFORMATION6" label="PDS_INFORMATION6" dataType="xsd:string" breakOrder="" fieldOrder="44"/>
+<element name="PDS_INFORMATION7" value="PDS_INFORMATION7" label="PDS_INFORMATION7" dataType="xsd:string" breakOrder="" fieldOrder="45"/>
+<element name="PDS_INFORMATION8" value="PDS_INFORMATION8" label="PDS_INFORMATION8" dataType="xsd:string" breakOrder="" fieldOrder="46"/>
+<element name="PDS_INFORMATION9" value="PDS_INFORMATION9" label="PDS_INFORMATION9" dataType="xsd:string" breakOrder="" fieldOrder="47"/>
+<element name="PDS_INFORMATION10" value="PDS_INFORMATION10" label="PDS_INFORMATION10" dataType="xsd:string" breakOrder="" fieldOrder="48"/>
+<element name="PDS_INFORMATION11" value="PDS_INFORMATION11" label="PDS_INFORMATION11" dataType="xsd:string" breakOrder="" fieldOrder="49"/>
+<element name="PDS_INFORMATION12" value="PDS_INFORMATION12" label="PDS_INFORMATION12" dataType="xsd:string" breakOrder="" fieldOrder="50"/>
+<element name="PDS_INFORMATION13" value="PDS_INFORMATION13" label="PDS_INFORMATION13" dataType="xsd:string" breakOrder="" fieldOrder="51"/>
+<element name="PDS_INFORMATION14" value="PDS_INFORMATION14" label="PDS_INFORMATION14" dataType="xsd:string" breakOrder="" fieldOrder="52"/>
+<element name="PDS_INFORMATION15" value="PDS_INFORMATION15" label="PDS_INFORMATION15" dataType="xsd:string" breakOrder="" fieldOrder="53"/>
+<element name="PDS_INFORMATION16" value="PDS_INFORMATION16" label="PDS_INFORMATION16" dataType="xsd:string" breakOrder="" fieldOrder="54"/>
+<element name="PDS_INFORMATION17" value="PDS_INFORMATION17" label="PDS_INFORMATION17" dataType="xsd:string" breakOrder="" fieldOrder="55"/>
+<element name="PDS_INFORMATION18" value="PDS_INFORMATION18" label="PDS_INFORMATION18" dataType="xsd:string" breakOrder="" fieldOrder="56"/>
+<element name="PDS_INFORMATION19" value="PDS_INFORMATION19" label="PDS_INFORMATION19" dataType="xsd:string" breakOrder="" fieldOrder="57"/>
+<element name="PDS_INFORMATION20" value="PDS_INFORMATION20" label="PDS_INFORMATION20" dataType="xsd:string" breakOrder="" fieldOrder="58"/>
+<element name="PDS_INFORMATION21" value="PDS_INFORMATION21" label="PDS_INFORMATION21" dataType="xsd:string" breakOrder="" fieldOrder="59"/>
+<element name="PDS_INFORMATION22" value="PDS_INFORMATION22" label="PDS_INFORMATION22" dataType="xsd:string" breakOrder="" fieldOrder="60"/>
+<element name="PDS_INFORMATION23" value="PDS_INFORMATION23" label="PDS_INFORMATION23" dataType="xsd:string" breakOrder="" fieldOrder="61"/>
+<element name="PDS_INFORMATION24" value="PDS_INFORMATION24" label="PDS_INFORMATION24" dataType="xsd:string" breakOrder="" fieldOrder="62"/>
+<element name="PDS_INFORMATION25" value="PDS_INFORMATION25" label="PDS_INFORMATION25" dataType="xsd:string" breakOrder="" fieldOrder="63"/>
+<element name="PDS_INFORMATION26" value="PDS_INFORMATION26" label="PDS_INFORMATION26" dataType="xsd:string" breakOrder="" fieldOrder="64"/>
+<element name="PDS_INFORMATION27" value="PDS_INFORMATION27" label="PDS_INFORMATION27" dataType="xsd:string" breakOrder="" fieldOrder="65"/>
+<element name="PDS_INFORMATION28" value="PDS_INFORMATION28" label="PDS_INFORMATION28" dataType="xsd:string" breakOrder="" fieldOrder="66"/>
+<element name="PDS_INFORMATION29" value="PDS_INFORMATION29" label="PDS_INFORMATION29" dataType="xsd:string" breakOrder="" fieldOrder="67"/>
+<element name="PDS_INFORMATION30" value="PDS_INFORMATION30" label="PDS_INFORMATION30" dataType="xsd:string" breakOrder="" fieldOrder="68"/>
+<element name="PDS_INFORMATION_NUMBER1" value="PDS_INFORMATION_NUMBER1" label="PDS_INFORMATION_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="69"/>
+<element name="PDS_INFORMATION_NUMBER2" value="PDS_INFORMATION_NUMBER2" label="PDS_INFORMATION_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="70"/>
+<element name="PDS_INFORMATION_NUMBER3" value="PDS_INFORMATION_NUMBER3" label="PDS_INFORMATION_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="71"/>
+<element name="PDS_INFORMATION_NUMBER4" value="PDS_INFORMATION_NUMBER4" label="PDS_INFORMATION_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="72"/>
+<element name="PDS_INFORMATION_NUMBER5" value="PDS_INFORMATION_NUMBER5" label="PDS_INFORMATION_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="73"/>
+<element name="PDS_INFORMATION_NUMBER6" value="PDS_INFORMATION_NUMBER6" label="PDS_INFORMATION_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="74"/>
+<element name="PDS_INFORMATION_NUMBER7" value="PDS_INFORMATION_NUMBER7" label="PDS_INFORMATION_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="75"/>
+<element name="PDS_INFORMATION_NUMBER8" value="PDS_INFORMATION_NUMBER8" label="PDS_INFORMATION_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="76"/>
+<element name="PDS_INFORMATION_NUMBER9" value="PDS_INFORMATION_NUMBER9" label="PDS_INFORMATION_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="77"/>
+<element name="PDS_INFORMATION_NUMBER10" value="PDS_INFORMATION_NUMBER10" label="PDS_INFORMATION_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="78"/>
+<element name="PDS_INFORMATION_NUMBER11" value="PDS_INFORMATION_NUMBER11" label="PDS_INFORMATION_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="79"/>
+<element name="PDS_INFORMATION_NUMBER12" value="PDS_INFORMATION_NUMBER12" label="PDS_INFORMATION_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="80"/>
+<element name="PDS_INFORMATION_NUMBER13" value="PDS_INFORMATION_NUMBER13" label="PDS_INFORMATION_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="81"/>
+<element name="PDS_INFORMATION_NUMBER14" value="PDS_INFORMATION_NUMBER14" label="PDS_INFORMATION_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="82"/>
+<element name="PDS_INFORMATION_NUMBER15" value="PDS_INFORMATION_NUMBER15" label="PDS_INFORMATION_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="83"/>
+<element name="PDS_INFORMATION_NUMBER16" value="PDS_INFORMATION_NUMBER16" label="PDS_INFORMATION_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="84"/>
+<element name="PDS_INFORMATION_NUMBER17" value="PDS_INFORMATION_NUMBER17" label="PDS_INFORMATION_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="85"/>
+<element name="PDS_INFORMATION_NUMBER18" value="PDS_INFORMATION_NUMBER18" label="PDS_INFORMATION_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="86"/>
+<element name="PDS_INFORMATION_NUMBER19" value="PDS_INFORMATION_NUMBER19" label="PDS_INFORMATION_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="87"/>
+<element name="PDS_INFORMATION_NUMBER20" value="PDS_INFORMATION_NUMBER20" label="PDS_INFORMATION_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="88"/>
+<element name="PDS_INFORMATION_DATE1" value="PDS_INFORMATION_DATE1" label="PDS_INFORMATION_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="89" />
+<element name="PDS_INFORMATION_DATE2" value="PDS_INFORMATION_DATE2" label="PDS_INFORMATION_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="90" />
+<element name="PDS_INFORMATION_DATE3" value="PDS_INFORMATION_DATE3" label="PDS_INFORMATION_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="91" />
+<element name="PDS_INFORMATION_DATE4" value="PDS_INFORMATION_DATE4" label="PDS_INFORMATION_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="92" />
+<element name="PDS_INFORMATION_DATE5" value="PDS_INFORMATION_DATE5" label="PDS_INFORMATION_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="93" />
+<element name="PDS_INFORMATION_DATE6" value="PDS_INFORMATION_DATE6" label="PDS_INFORMATION_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="94" />
+<element name="PDS_INFORMATION_DATE7" value="PDS_INFORMATION_DATE7" label="PDS_INFORMATION_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="95" />
+<element name="PDS_INFORMATION_DATE8" value="PDS_INFORMATION_DATE8" label="PDS_INFORMATION_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="96" />
+<element name="PDS_INFORMATION_DATE9" value="PDS_INFORMATION_DATE9" label="PDS_INFORMATION_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="97" />
+<element name="PDS_INFORMATION_DATE10" value="PDS_INFORMATION_DATE10" label="PDS_INFORMATION_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="98" />
+<element name="PDS_INFORMATION_DATE11" value="PDS_INFORMATION_DATE11" label="PDS_INFORMATION_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="99" />
+<element name="PDS_INFORMATION_DATE12" value="PDS_INFORMATION_DATE12" label="PDS_INFORMATION_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="100" />
+<element name="PDS_INFORMATION_DATE13" value="PDS_INFORMATION_DATE13" label="PDS_INFORMATION_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="101" />
+<element name="PDS_INFORMATION_DATE14" value="PDS_INFORMATION_DATE14" label="PDS_INFORMATION_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="102" />
+<element name="PDS_INFORMATION_DATE15" value="PDS_INFORMATION_DATE15" label="PDS_INFORMATION_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="103" />
+<element name="ATTRIBUTE21" value="ATTRIBUTE21" label="ATTRIBUTE21" dataType="xsd:string" breakOrder="" fieldOrder="104"/>
+<element name="ATTRIBUTE22" value="ATTRIBUTE22" label="ATTRIBUTE22" dataType="xsd:string" breakOrder="" fieldOrder="105"/>
+<element name="ATTRIBUTE23" value="ATTRIBUTE23" label="ATTRIBUTE23" dataType="xsd:string" breakOrder="" fieldOrder="106"/>
+<element name="ATTRIBUTE24" value="ATTRIBUTE24" label="ATTRIBUTE24" dataType="xsd:string" breakOrder="" fieldOrder="107"/>
+<element name="ATTRIBUTE25" value="ATTRIBUTE25" label="ATTRIBUTE25" dataType="xsd:string" breakOrder="" fieldOrder="108"/>
+<element name="ATTRIBUTE26" value="ATTRIBUTE26" label="ATTRIBUTE26" dataType="xsd:string" breakOrder="" fieldOrder="109"/>
+<element name="ATTRIBUTE27" value="ATTRIBUTE27" label="ATTRIBUTE27" dataType="xsd:string" breakOrder="" fieldOrder="110"/>
+<element name="ATTRIBUTE28" value="ATTRIBUTE28" label="ATTRIBUTE28" dataType="xsd:string" breakOrder="" fieldOrder="111"/>
+<element name="ATTRIBUTE29" value="ATTRIBUTE29" label="ATTRIBUTE29" dataType="xsd:string" breakOrder="" fieldOrder="112"/>
+<element name="ATTRIBUTE30" value="ATTRIBUTE30" label="ATTRIBUTE30" dataType="xsd:string" breakOrder="" fieldOrder="113"/>
+<element name="ATTRIBUTE_NUMBER1" value="ATTRIBUTE_NUMBER1" label="ATTRIBUTE_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="114"/>
+<element name="ATTRIBUTE_NUMBER2" value="ATTRIBUTE_NUMBER2" label="ATTRIBUTE_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="115"/>
+<element name="ATTRIBUTE_NUMBER3" value="ATTRIBUTE_NUMBER3" label="ATTRIBUTE_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="116"/>
+<element name="ATTRIBUTE_NUMBER4" value="ATTRIBUTE_NUMBER4" label="ATTRIBUTE_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="117"/>
+<element name="ATTRIBUTE_NUMBER5" value="ATTRIBUTE_NUMBER5" label="ATTRIBUTE_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="118"/>
+<element name="ATTRIBUTE_NUMBER6" value="ATTRIBUTE_NUMBER6" label="ATTRIBUTE_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="119"/>
+<element name="ATTRIBUTE_NUMBER7" value="ATTRIBUTE_NUMBER7" label="ATTRIBUTE_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="120"/>
+<element name="ATTRIBUTE_NUMBER8" value="ATTRIBUTE_NUMBER8" label="ATTRIBUTE_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="121"/>
+<element name="ATTRIBUTE_NUMBER9" value="ATTRIBUTE_NUMBER9" label="ATTRIBUTE_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="122"/>
+<element name="ATTRIBUTE_NUMBER10" value="ATTRIBUTE_NUMBER10" label="ATTRIBUTE_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="123"/>
+<element name="ATTRIBUTE_NUMBER11" value="ATTRIBUTE_NUMBER11" label="ATTRIBUTE_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="124"/>
+<element name="ATTRIBUTE_NUMBER12" value="ATTRIBUTE_NUMBER12" label="ATTRIBUTE_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="125"/>
+<element name="ATTRIBUTE_NUMBER13" value="ATTRIBUTE_NUMBER13" label="ATTRIBUTE_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="126"/>
+<element name="ATTRIBUTE_NUMBER14" value="ATTRIBUTE_NUMBER14" label="ATTRIBUTE_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="127"/>
+<element name="ATTRIBUTE_NUMBER15" value="ATTRIBUTE_NUMBER15" label="ATTRIBUTE_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="128"/>
+<element name="ATTRIBUTE_NUMBER16" value="ATTRIBUTE_NUMBER16" label="ATTRIBUTE_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="129"/>
+<element name="ATTRIBUTE_NUMBER17" value="ATTRIBUTE_NUMBER17" label="ATTRIBUTE_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="130"/>
+<element name="ATTRIBUTE_NUMBER18" value="ATTRIBUTE_NUMBER18" label="ATTRIBUTE_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="131"/>
+<element name="ATTRIBUTE_NUMBER19" value="ATTRIBUTE_NUMBER19" label="ATTRIBUTE_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="132"/>
+<element name="ATTRIBUTE_NUMBER20" value="ATTRIBUTE_NUMBER20" label="ATTRIBUTE_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="133"/>
+<element name="ATTRIBUTE_DATE1" value="ATTRIBUTE_DATE1" label="ATTRIBUTE_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="134" />
+<element name="ATTRIBUTE_DATE2" value="ATTRIBUTE_DATE2" label="ATTRIBUTE_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="135" />
+<element name="ATTRIBUTE_DATE3" value="ATTRIBUTE_DATE3" label="ATTRIBUTE_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="136" />
+<element name="ATTRIBUTE_DATE4" value="ATTRIBUTE_DATE4" label="ATTRIBUTE_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="137" />
+<element name="ATTRIBUTE_DATE5" value="ATTRIBUTE_DATE5" label="ATTRIBUTE_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="138" />
+<element name="ATTRIBUTE_DATE6" value="ATTRIBUTE_DATE6" label="ATTRIBUTE_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="139" />
+<element name="ATTRIBUTE_DATE7" value="ATTRIBUTE_DATE7" label="ATTRIBUTE_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="140" />
+<element name="ATTRIBUTE_DATE8" value="ATTRIBUTE_DATE8" label="ATTRIBUTE_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="141" />
+<element name="ATTRIBUTE_DATE9" value="ATTRIBUTE_DATE9" label="ATTRIBUTE_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="142" />
+<element name="ATTRIBUTE_DATE10" value="ATTRIBUTE_DATE10" label="ATTRIBUTE_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="143" />
+<element name="ATTRIBUTE_DATE11" value="ATTRIBUTE_DATE11" label="ATTRIBUTE_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="144" />
+<element name="ATTRIBUTE_DATE12" value="ATTRIBUTE_DATE12" label="ATTRIBUTE_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="145" />
+<element name="ATTRIBUTE_DATE13" value="ATTRIBUTE_DATE13" label="ATTRIBUTE_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="146" />
+<element name="ATTRIBUTE_DATE14" value="ATTRIBUTE_DATE14" label="ATTRIBUTE_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="147" />
+<element name="ATTRIBUTE_DATE15" value="ATTRIBUTE_DATE15" label="ATTRIBUTE_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="148" />
+<element name="DATE_EMPLOYEE_DATA_VERIFIED" value="DATE_EMPLOYEE_DATA_VERIFIED" label="DATE_EMPLOYEE_DATA_VERIFIED" dataType="xsd:date" breakOrder="" fieldOrder="149" />
+<element name="FAST_PATH_EMPLOYEE" value="FAST_PATH_EMPLOYEE" label="FAST_PATH_EMPLOYEE" dataType="xsd:string" breakOrder="" fieldOrder="150"/>
+<element name="LAST_WORKING_DATE" value="LAST_WORKING_DATE" label="LAST_WORKING_DATE" dataType="xsd:date" breakOrder="" fieldOrder="151" />
+<element name="LEGAL_ENTITY_ID" value="LEGAL_ENTITY_ID" label="LEGAL_ENTITY_ID" dataType="xsd:double" breakOrder="" fieldOrder="152"/>
+<element name="LEGISLATION_CODE" value="LEGISLATION_CODE" label="LEGISLATION_CODE" dataType="xsd:string" breakOrder="" fieldOrder="153"/>
+<element name="ON_MILITARY_SERVICE" value="ON_MILITARY_SERVICE" label="ON_MILITARY_SERVICE" dataType="xsd:string" breakOrder="" fieldOrder="154"/>
+<element name="ORIGINAL_DATE_OF_HIRE" value="ORIGINAL_DATE_OF_HIRE" label="ORIGINAL_DATE_OF_HIRE" dataType="xsd:date" breakOrder="" fieldOrder="155" />
+<element name="PERIOD_TYPE" value="PERIOD_TYPE" label="PERIOD_TYPE" dataType="xsd:string" breakOrder="" fieldOrder="156"/>
+<element name="PRIMARY_FLAG" value="PRIMARY_FLAG" label="PRIMARY_FLAG" dataType="xsd:string" breakOrder="" fieldOrder="157"/>
+<element name="REHIRE_AUTHORIZOR" value="REHIRE_AUTHORIZOR" label="REHIRE_AUTHORIZOR" dataType="xsd:string" breakOrder="" fieldOrder="158"/>
+<element name="REHIRE_REASON" value="REHIRE_REASON" label="REHIRE_REASON" dataType="xsd:string" breakOrder="" fieldOrder="159"/>
+<element name="REHIRE_RECOMMENDATION" value="REHIRE_RECOMMENDATION" label="REHIRE_RECOMMENDATION" dataType="xsd:string" breakOrder="" fieldOrder="160"/>
+<element name="WORKER_NUMBER" value="WORKER_NUMBER" label="WORKER_NUMBER" dataType="xsd:string" breakOrder="" fieldOrder="161"/>
+<element name="ACTION_OCCURRENCE_ID" value="ACTION_OCCURRENCE_ID" label="ACTION_OCCURRENCE_ID" dataType="xsd:double" breakOrder="" fieldOrder="162"/>
+<element name="COMMENTS" value="COMMENTS" label="COMMENTS" dataType="xsd:string" breakOrder="" fieldOrder="163"/>
+<element name="REHIRE_AUTHORIZER_PERSON_ID" value="REHIRE_AUTHORIZER_PERSON_ID" label="REHIRE_AUTHORIZER_PERSON_ID" dataType="xsd:double" breakOrder="" fieldOrder="164"/>
+<element name="REVOKE_USER_ACCESS" value="REVOKE_USER_ACCESS" label="REVOKE_USER_ACCESS" dataType="xsd:string" breakOrder="" fieldOrder="165"/>
+<element name="WORKER_COMMENTS" value="WORKER_COMMENTS" label="WORKER_COMMENTS" dataType="xsd:string" breakOrder="" fieldOrder="166"/>
+</group>
+<group name="PER_PERSON_NAMES_F" label="PER_PERSON_NAMES_F" source="PER_PERSON_NAMES_F">
+<element name="PERSON_NAME_ID" value="PERSON_NAME_ID" label="PERSON_NAME_ID" dataType="xsd:double" breakOrder="" fieldOrder="1"/>
+<element name="EFFECTIVE_START_DATE" value="EFFECTIVE_START_DATE" label="EFFECTIVE_START_DATE" dataType="xsd:date" breakOrder="" fieldOrder="2" />
+<element name="EFFECTIVE_END_DATE" value="EFFECTIVE_END_DATE" label="EFFECTIVE_END_DATE" dataType="xsd:date" breakOrder="" fieldOrder="3" />
+<element name="PERSON_ID" value="PERSON_ID" label="PERSON_ID" dataType="xsd:double" breakOrder="" fieldOrder="4"/>
+<element name="BUSINESS_GROUP_ID" value="BUSINESS_GROUP_ID" label="BUSINESS_GROUP_ID" dataType="xsd:double" breakOrder="" fieldOrder="5"/>
+<element name="LEGISLATION_CODE" value="LEGISLATION_CODE" label="LEGISLATION_CODE" dataType="xsd:string" breakOrder="" fieldOrder="6"/>
+<element name="NAME_TYPE" value="NAME_TYPE" label="NAME_TYPE" dataType="xsd:string" breakOrder="" fieldOrder="7"/>
+<element name="LAST_NAME" value="LAST_NAME" label="LAST_NAME" dataType="xsd:string" breakOrder="" fieldOrder="8"/>
+<element name="FIRST_NAME" value="FIRST_NAME" label="FIRST_NAME" dataType="xsd:string" breakOrder="" fieldOrder="9"/>
+<element name="MIDDLE_NAMES" value="MIDDLE_NAMES" label="MIDDLE_NAMES" dataType="xsd:string" breakOrder="" fieldOrder="10"/>
+<element name="TITLE" value="TITLE" label="TITLE" dataType="xsd:string" breakOrder="" fieldOrder="11"/>
+<element name="PRE_NAME_ADJUNCT" value="PRE_NAME_ADJUNCT" label="PRE_NAME_ADJUNCT" dataType="xsd:string" breakOrder="" fieldOrder="12"/>
+<element name="SUFFIX" value="SUFFIX" label="SUFFIX" dataType="xsd:string" breakOrder="" fieldOrder="13"/>
+<element name="KNOWN_AS" value="KNOWN_AS" label="KNOWN_AS" dataType="xsd:string" breakOrder="" fieldOrder="14"/>
+<element name="PREVIOUS_LAST_NAME" value="PREVIOUS_LAST_NAME" label="PREVIOUS_LAST_NAME" dataType="xsd:string" breakOrder="" fieldOrder="15"/>
+<element name="HONORS" value="HONORS" label="HONORS" dataType="xsd:string" breakOrder="" fieldOrder="16"/>
+<element name="MILITARY_RANK" value="MILITARY_RANK" label="MILITARY_RANK" dataType="xsd:string" breakOrder="" fieldOrder="17"/>
+<element name="DISPLAY_NAME" value="DISPLAY_NAME" label="DISPLAY_NAME" dataType="xsd:string" breakOrder="" fieldOrder="18"/>
+<element name="FULL_NAME" value="FULL_NAME" label="FULL_NAME" dataType="xsd:string" breakOrder="" fieldOrder="19"/>
+<element name="LIST_NAME" value="LIST_NAME" label="LIST_NAME" dataType="xsd:string" breakOrder="" fieldOrder="20"/>
+<element name="ORDER_NAME" value="ORDER_NAME" label="ORDER_NAME" dataType="xsd:string" breakOrder="" fieldOrder="21"/>
+<element name="NAM_INFORMATION_CATEGORY" value="NAM_INFORMATION_CATEGORY" label="NAM_INFORMATION_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="22"/>
+<element name="NAM_INFORMATION1" value="NAM_INFORMATION1" label="NAM_INFORMATION1" dataType="xsd:string" breakOrder="" fieldOrder="23"/>
+<element name="NAM_INFORMATION2" value="NAM_INFORMATION2" label="NAM_INFORMATION2" dataType="xsd:string" breakOrder="" fieldOrder="24"/>
+<element name="NAM_INFORMATION3" value="NAM_INFORMATION3" label="NAM_INFORMATION3" dataType="xsd:string" breakOrder="" fieldOrder="25"/>
+<element name="NAM_INFORMATION4" value="NAM_INFORMATION4" label="NAM_INFORMATION4" dataType="xsd:string" breakOrder="" fieldOrder="26"/>
+<element name="NAM_INFORMATION5" value="NAM_INFORMATION5" label="NAM_INFORMATION5" dataType="xsd:string" breakOrder="" fieldOrder="27"/>
+<element name="NAM_INFORMATION6" value="NAM_INFORMATION6" label="NAM_INFORMATION6" dataType="xsd:string" breakOrder="" fieldOrder="28"/>
+<element name="NAM_INFORMATION7" value="NAM_INFORMATION7" label="NAM_INFORMATION7" dataType="xsd:string" breakOrder="" fieldOrder="29"/>
+<element name="NAM_INFORMATION8" value="NAM_INFORMATION8" label="NAM_INFORMATION8" dataType="xsd:string" breakOrder="" fieldOrder="30"/>
+<element name="NAM_INFORMATION9" value="NAM_INFORMATION9" label="NAM_INFORMATION9" dataType="xsd:string" breakOrder="" fieldOrder="31"/>
+<element name="NAM_INFORMATION10" value="NAM_INFORMATION10" label="NAM_INFORMATION10" dataType="xsd:string" breakOrder="" fieldOrder="32"/>
+<element name="NAM_INFORMATION11" value="NAM_INFORMATION11" label="NAM_INFORMATION11" dataType="xsd:string" breakOrder="" fieldOrder="33"/>
+<element name="NAM_INFORMATION12" value="NAM_INFORMATION12" label="NAM_INFORMATION12" dataType="xsd:string" breakOrder="" fieldOrder="34"/>
+<element name="NAM_INFORMATION13" value="NAM_INFORMATION13" label="NAM_INFORMATION13" dataType="xsd:string" breakOrder="" fieldOrder="35"/>
+<element name="NAM_INFORMATION14" value="NAM_INFORMATION14" label="NAM_INFORMATION14" dataType="xsd:string" breakOrder="" fieldOrder="36"/>
+<element name="NAM_INFORMATION15" value="NAM_INFORMATION15" label="NAM_INFORMATION15" dataType="xsd:string" breakOrder="" fieldOrder="37"/>
+<element name="NAM_INFORMATION16" value="NAM_INFORMATION16" label="NAM_INFORMATION16" dataType="xsd:string" breakOrder="" fieldOrder="38"/>
+<element name="NAM_INFORMATION17" value="NAM_INFORMATION17" label="NAM_INFORMATION17" dataType="xsd:string" breakOrder="" fieldOrder="39"/>
+<element name="NAM_INFORMATION18" value="NAM_INFORMATION18" label="NAM_INFORMATION18" dataType="xsd:string" breakOrder="" fieldOrder="40"/>
+<element name="NAM_INFORMATION19" value="NAM_INFORMATION19" label="NAM_INFORMATION19" dataType="xsd:string" breakOrder="" fieldOrder="41"/>
+<element name="NAM_INFORMATION20" value="NAM_INFORMATION20" label="NAM_INFORMATION20" dataType="xsd:string" breakOrder="" fieldOrder="42"/>
+<element name="NAM_INFORMATION21" value="NAM_INFORMATION21" label="NAM_INFORMATION21" dataType="xsd:string" breakOrder="" fieldOrder="43"/>
+<element name="NAM_INFORMATION22" value="NAM_INFORMATION22" label="NAM_INFORMATION22" dataType="xsd:string" breakOrder="" fieldOrder="44"/>
+<element name="NAM_INFORMATION23" value="NAM_INFORMATION23" label="NAM_INFORMATION23" dataType="xsd:string" breakOrder="" fieldOrder="45"/>
+<element name="NAM_INFORMATION24" value="NAM_INFORMATION24" label="NAM_INFORMATION24" dataType="xsd:string" breakOrder="" fieldOrder="46"/>
+<element name="NAM_INFORMATION25" value="NAM_INFORMATION25" label="NAM_INFORMATION25" dataType="xsd:string" breakOrder="" fieldOrder="47"/>
+<element name="NAM_INFORMATION26" value="NAM_INFORMATION26" label="NAM_INFORMATION26" dataType="xsd:string" breakOrder="" fieldOrder="48"/>
+<element name="NAM_INFORMATION27" value="NAM_INFORMATION27" label="NAM_INFORMATION27" dataType="xsd:string" breakOrder="" fieldOrder="49"/>
+<element name="NAM_INFORMATION28" value="NAM_INFORMATION28" label="NAM_INFORMATION28" dataType="xsd:string" breakOrder="" fieldOrder="50"/>
+<element name="NAM_INFORMATION29" value="NAM_INFORMATION29" label="NAM_INFORMATION29" dataType="xsd:string" breakOrder="" fieldOrder="51"/>
+<element name="NAM_INFORMATION30" value="NAM_INFORMATION30" label="NAM_INFORMATION30" dataType="xsd:string" breakOrder="" fieldOrder="52"/>
+<element name="NAM_INFORMATION_NUMBER1" value="NAM_INFORMATION_NUMBER1" label="NAM_INFORMATION_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="53"/>
+<element name="NAM_INFORMATION_NUMBER2" value="NAM_INFORMATION_NUMBER2" label="NAM_INFORMATION_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="54"/>
+<element name="NAM_INFORMATION_NUMBER3" value="NAM_INFORMATION_NUMBER3" label="NAM_INFORMATION_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="55"/>
+<element name="NAM_INFORMATION_NUMBER4" value="NAM_INFORMATION_NUMBER4" label="NAM_INFORMATION_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="56"/>
+<element name="NAM_INFORMATION_NUMBER5" value="NAM_INFORMATION_NUMBER5" label="NAM_INFORMATION_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="57"/>
+<element name="NAM_INFORMATION_NUMBER6" value="NAM_INFORMATION_NUMBER6" label="NAM_INFORMATION_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="58"/>
+<element name="NAM_INFORMATION_NUMBER7" value="NAM_INFORMATION_NUMBER7" label="NAM_INFORMATION_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="59"/>
+<element name="NAM_INFORMATION_NUMBER8" value="NAM_INFORMATION_NUMBER8" label="NAM_INFORMATION_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="60"/>
+<element name="NAM_INFORMATION_NUMBER9" value="NAM_INFORMATION_NUMBER9" label="NAM_INFORMATION_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="61"/>
+<element name="NAM_INFORMATION_NUMBER10" value="NAM_INFORMATION_NUMBER10" label="NAM_INFORMATION_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="62"/>
+<element name="NAM_INFORMATION_NUMBER11" value="NAM_INFORMATION_NUMBER11" label="NAM_INFORMATION_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="63"/>
+<element name="NAM_INFORMATION_NUMBER12" value="NAM_INFORMATION_NUMBER12" label="NAM_INFORMATION_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="64"/>
+<element name="NAM_INFORMATION_NUMBER13" value="NAM_INFORMATION_NUMBER13" label="NAM_INFORMATION_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="65"/>
+<element name="NAM_INFORMATION_NUMBER14" value="NAM_INFORMATION_NUMBER14" label="NAM_INFORMATION_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="66"/>
+<element name="NAM_INFORMATION_NUMBER15" value="NAM_INFORMATION_NUMBER15" label="NAM_INFORMATION_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="67"/>
+<element name="NAM_INFORMATION_NUMBER16" value="NAM_INFORMATION_NUMBER16" label="NAM_INFORMATION_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="68"/>
+<element name="NAM_INFORMATION_NUMBER17" value="NAM_INFORMATION_NUMBER17" label="NAM_INFORMATION_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="69"/>
+<element name="NAM_INFORMATION_NUMBER18" value="NAM_INFORMATION_NUMBER18" label="NAM_INFORMATION_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="70"/>
+<element name="NAM_INFORMATION_NUMBER19" value="NAM_INFORMATION_NUMBER19" label="NAM_INFORMATION_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="71"/>
+<element name="NAM_INFORMATION_NUMBER20" value="NAM_INFORMATION_NUMBER20" label="NAM_INFORMATION_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="72"/>
+<element name="NAM_INFORMATION_DATE1" value="NAM_INFORMATION_DATE1" label="NAM_INFORMATION_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="73" />
+<element name="NAM_INFORMATION_DATE2" value="NAM_INFORMATION_DATE2" label="NAM_INFORMATION_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="74" />
+<element name="NAM_INFORMATION_DATE3" value="NAM_INFORMATION_DATE3" label="NAM_INFORMATION_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="75" />
+<element name="NAM_INFORMATION_DATE4" value="NAM_INFORMATION_DATE4" label="NAM_INFORMATION_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="76" />
+<element name="NAM_INFORMATION_DATE5" value="NAM_INFORMATION_DATE5" label="NAM_INFORMATION_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="77" />
+<element name="NAM_INFORMATION_DATE6" value="NAM_INFORMATION_DATE6" label="NAM_INFORMATION_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="78" />
+<element name="NAM_INFORMATION_DATE7" value="NAM_INFORMATION_DATE7" label="NAM_INFORMATION_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="79" />
+<element name="NAM_INFORMATION_DATE8" value="NAM_INFORMATION_DATE8" label="NAM_INFORMATION_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="80" />
+<element name="NAM_INFORMATION_DATE9" value="NAM_INFORMATION_DATE9" label="NAM_INFORMATION_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="81" />
+<element name="NAM_INFORMATION_DATE10" value="NAM_INFORMATION_DATE10" label="NAM_INFORMATION_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="82" />
+<element name="NAM_INFORMATION_DATE11" value="NAM_INFORMATION_DATE11" label="NAM_INFORMATION_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="83" />
+<element name="NAM_INFORMATION_DATE12" value="NAM_INFORMATION_DATE12" label="NAM_INFORMATION_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="84" />
+<element name="NAM_INFORMATION_DATE13" value="NAM_INFORMATION_DATE13" label="NAM_INFORMATION_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="85" />
+<element name="NAM_INFORMATION_DATE14" value="NAM_INFORMATION_DATE14" label="NAM_INFORMATION_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="86" />
+<element name="NAM_INFORMATION_DATE15" value="NAM_INFORMATION_DATE15" label="NAM_INFORMATION_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="87" />
+<element name="ATTRIBUTE_CATEGORY" value="ATTRIBUTE_CATEGORY" label="ATTRIBUTE_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="88"/>
+<element name="ATTRIBUTE1" value="ATTRIBUTE1" label="ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="89"/>
+<element name="ATTRIBUTE2" value="ATTRIBUTE2" label="ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="90"/>
+<element name="ATTRIBUTE3" value="ATTRIBUTE3" label="ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="91"/>
+<element name="ATTRIBUTE4" value="ATTRIBUTE4" label="ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="92"/>
+<element name="ATTRIBUTE5" value="ATTRIBUTE5" label="ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="93"/>
+<element name="ATTRIBUTE6" value="ATTRIBUTE6" label="ATTRIBUTE6" dataType="xsd:string" breakOrder="" fieldOrder="94"/>
+<element name="ATTRIBUTE7" value="ATTRIBUTE7" label="ATTRIBUTE7" dataType="xsd:string" breakOrder="" fieldOrder="95"/>
+<element name="ATTRIBUTE8" value="ATTRIBUTE8" label="ATTRIBUTE8" dataType="xsd:string" breakOrder="" fieldOrder="96"/>
+<element name="ATTRIBUTE9" value="ATTRIBUTE9" label="ATTRIBUTE9" dataType="xsd:string" breakOrder="" fieldOrder="97"/>
+<element name="ATTRIBUTE10" value="ATTRIBUTE10" label="ATTRIBUTE10" dataType="xsd:string" breakOrder="" fieldOrder="98"/>
+<element name="ATTRIBUTE11" value="ATTRIBUTE11" label="ATTRIBUTE11" dataType="xsd:string" breakOrder="" fieldOrder="99"/>
+<element name="ATTRIBUTE12" value="ATTRIBUTE12" label="ATTRIBUTE12" dataType="xsd:string" breakOrder="" fieldOrder="100"/>
+<element name="ATTRIBUTE13" value="ATTRIBUTE13" label="ATTRIBUTE13" dataType="xsd:string" breakOrder="" fieldOrder="101"/>
+<element name="ATTRIBUTE14" value="ATTRIBUTE14" label="ATTRIBUTE14" dataType="xsd:string" breakOrder="" fieldOrder="102"/>
+<element name="ATTRIBUTE15" value="ATTRIBUTE15" label="ATTRIBUTE15" dataType="xsd:string" breakOrder="" fieldOrder="103"/>
+<element name="ATTRIBUTE16" value="ATTRIBUTE16" label="ATTRIBUTE16" dataType="xsd:string" breakOrder="" fieldOrder="104"/>
+<element name="ATTRIBUTE17" value="ATTRIBUTE17" label="ATTRIBUTE17" dataType="xsd:string" breakOrder="" fieldOrder="105"/>
+<element name="ATTRIBUTE18" value="ATTRIBUTE18" label="ATTRIBUTE18" dataType="xsd:string" breakOrder="" fieldOrder="106"/>
+<element name="ATTRIBUTE19" value="ATTRIBUTE19" label="ATTRIBUTE19" dataType="xsd:string" breakOrder="" fieldOrder="107"/>
+<element name="ATTRIBUTE20" value="ATTRIBUTE20" label="ATTRIBUTE20" dataType="xsd:string" breakOrder="" fieldOrder="108"/>
+<element name="ATTRIBUTE21" value="ATTRIBUTE21" label="ATTRIBUTE21" dataType="xsd:string" breakOrder="" fieldOrder="109"/>
+<element name="ATTRIBUTE22" value="ATTRIBUTE22" label="ATTRIBUTE22" dataType="xsd:string" breakOrder="" fieldOrder="110"/>
+<element name="ATTRIBUTE23" value="ATTRIBUTE23" label="ATTRIBUTE23" dataType="xsd:string" breakOrder="" fieldOrder="111"/>
+<element name="ATTRIBUTE24" value="ATTRIBUTE24" label="ATTRIBUTE24" dataType="xsd:string" breakOrder="" fieldOrder="112"/>
+<element name="ATTRIBUTE25" value="ATTRIBUTE25" label="ATTRIBUTE25" dataType="xsd:string" breakOrder="" fieldOrder="113"/>
+<element name="ATTRIBUTE26" value="ATTRIBUTE26" label="ATTRIBUTE26" dataType="xsd:string" breakOrder="" fieldOrder="114"/>
+<element name="ATTRIBUTE27" value="ATTRIBUTE27" label="ATTRIBUTE27" dataType="xsd:string" breakOrder="" fieldOrder="115"/>
+<element name="ATTRIBUTE28" value="ATTRIBUTE28" label="ATTRIBUTE28" dataType="xsd:string" breakOrder="" fieldOrder="116"/>
+<element name="ATTRIBUTE29" value="ATTRIBUTE29" label="ATTRIBUTE29" dataType="xsd:string" breakOrder="" fieldOrder="117"/>
+<element name="ATTRIBUTE30" value="ATTRIBUTE30" label="ATTRIBUTE30" dataType="xsd:string" breakOrder="" fieldOrder="118"/>
+<element name="ATTRIBUTE_NUMBER1" value="ATTRIBUTE_NUMBER1" label="ATTRIBUTE_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="119"/>
+<element name="ATTRIBUTE_NUMBER2" value="ATTRIBUTE_NUMBER2" label="ATTRIBUTE_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="120"/>
+<element name="ATTRIBUTE_NUMBER3" value="ATTRIBUTE_NUMBER3" label="ATTRIBUTE_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="121"/>
+<element name="ATTRIBUTE_NUMBER4" value="ATTRIBUTE_NUMBER4" label="ATTRIBUTE_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="122"/>
+<element name="ATTRIBUTE_NUMBER5" value="ATTRIBUTE_NUMBER5" label="ATTRIBUTE_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="123"/>
+<element name="ATTRIBUTE_NUMBER6" value="ATTRIBUTE_NUMBER6" label="ATTRIBUTE_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="124"/>
+<element name="ATTRIBUTE_NUMBER7" value="ATTRIBUTE_NUMBER7" label="ATTRIBUTE_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="125"/>
+<element name="ATTRIBUTE_NUMBER8" value="ATTRIBUTE_NUMBER8" label="ATTRIBUTE_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="126"/>
+<element name="ATTRIBUTE_NUMBER9" value="ATTRIBUTE_NUMBER9" label="ATTRIBUTE_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="127"/>
+<element name="ATTRIBUTE_NUMBER10" value="ATTRIBUTE_NUMBER10" label="ATTRIBUTE_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="128"/>
+<element name="ATTRIBUTE_NUMBER11" value="ATTRIBUTE_NUMBER11" label="ATTRIBUTE_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="129"/>
+<element name="ATTRIBUTE_NUMBER12" value="ATTRIBUTE_NUMBER12" label="ATTRIBUTE_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="130"/>
+<element name="ATTRIBUTE_NUMBER13" value="ATTRIBUTE_NUMBER13" label="ATTRIBUTE_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="131"/>
+<element name="ATTRIBUTE_NUMBER14" value="ATTRIBUTE_NUMBER14" label="ATTRIBUTE_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="132"/>
+<element name="ATTRIBUTE_NUMBER15" value="ATTRIBUTE_NUMBER15" label="ATTRIBUTE_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="133"/>
+<element name="ATTRIBUTE_NUMBER16" value="ATTRIBUTE_NUMBER16" label="ATTRIBUTE_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="134"/>
+<element name="ATTRIBUTE_NUMBER17" value="ATTRIBUTE_NUMBER17" label="ATTRIBUTE_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="135"/>
+<element name="ATTRIBUTE_NUMBER18" value="ATTRIBUTE_NUMBER18" label="ATTRIBUTE_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="136"/>
+<element name="ATTRIBUTE_NUMBER19" value="ATTRIBUTE_NUMBER19" label="ATTRIBUTE_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="137"/>
+<element name="ATTRIBUTE_NUMBER20" value="ATTRIBUTE_NUMBER20" label="ATTRIBUTE_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="138"/>
+<element name="ATTRIBUTE_DATE1" value="ATTRIBUTE_DATE1" label="ATTRIBUTE_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="139" />
+<element name="ATTRIBUTE_DATE2" value="ATTRIBUTE_DATE2" label="ATTRIBUTE_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="140" />
+<element name="ATTRIBUTE_DATE3" value="ATTRIBUTE_DATE3" label="ATTRIBUTE_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="141" />
+<element name="ATTRIBUTE_DATE4" value="ATTRIBUTE_DATE4" label="ATTRIBUTE_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="142" />
+<element name="ATTRIBUTE_DATE5" value="ATTRIBUTE_DATE5" label="ATTRIBUTE_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="143" />
+<element name="ATTRIBUTE_DATE6" value="ATTRIBUTE_DATE6" label="ATTRIBUTE_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="144" />
+<element name="ATTRIBUTE_DATE7" value="ATTRIBUTE_DATE7" label="ATTRIBUTE_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="145" />
+<element name="ATTRIBUTE_DATE8" value="ATTRIBUTE_DATE8" label="ATTRIBUTE_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="146" />
+<element name="ATTRIBUTE_DATE9" value="ATTRIBUTE_DATE9" label="ATTRIBUTE_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="147" />
+<element name="ATTRIBUTE_DATE10" value="ATTRIBUTE_DATE10" label="ATTRIBUTE_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="148" />
+<element name="ATTRIBUTE_DATE11" value="ATTRIBUTE_DATE11" label="ATTRIBUTE_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="149" />
+<element name="ATTRIBUTE_DATE12" value="ATTRIBUTE_DATE12" label="ATTRIBUTE_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="150" />
+<element name="ATTRIBUTE_DATE13" value="ATTRIBUTE_DATE13" label="ATTRIBUTE_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="151" />
+<element name="ATTRIBUTE_DATE14" value="ATTRIBUTE_DATE14" label="ATTRIBUTE_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="152" />
+<element name="ATTRIBUTE_DATE15" value="ATTRIBUTE_DATE15" label="ATTRIBUTE_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="153" />
+<element name="OBJECT_VERSION_NUMBER" value="OBJECT_VERSION_NUMBER" label="OBJECT_VERSION_NUMBER" dataType="xsd:integer" breakOrder="" fieldOrder="154"/>
+<element name="CREATED_BY" value="CREATED_BY" label="CREATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="155"/>
+<element name="CREATION_DATE" value="CREATION_DATE" label="CREATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="156" />
+<element name="LAST_UPDATE_DATE" value="LAST_UPDATE_DATE" label="LAST_UPDATE_DATE" dataType="xsd:date" breakOrder="" fieldOrder="157" />
+<element name="LAST_UPDATE_LOGIN" value="LAST_UPDATE_LOGIN" label="LAST_UPDATE_LOGIN" dataType="xsd:string" breakOrder="" fieldOrder="158"/>
+<element name="LAST_UPDATED_BY" value="LAST_UPDATED_BY" label="LAST_UPDATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="159"/>
+<element name="CHAR_SET_CONTEXT" value="CHAR_SET_CONTEXT" label="CHAR_SET_CONTEXT" dataType="xsd:string" breakOrder="" fieldOrder="160"/>
+</group>
+<group name="PER_ASSIGNMENT_SUPERVISORS_F" label="PER_ASSIGNMENT_SUPERVISORS_F" source="PER_ASSIGNMENT_SUPERVISORS_F">
+<element name="ASSIGNMENT_SUPERVISOR_ID" value="ASSIGNMENT_SUPERVISOR_ID" label="ASSIGNMENT_SUPERVISOR_ID" dataType="xsd:double" breakOrder="" fieldOrder="1"/>
+<element name="EFFECTIVE_START_DATE" value="EFFECTIVE_START_DATE" label="EFFECTIVE_START_DATE" dataType="xsd:date" breakOrder="" fieldOrder="2" />
+<element name="EFFECTIVE_END_DATE" value="EFFECTIVE_END_DATE" label="EFFECTIVE_END_DATE" dataType="xsd:date" breakOrder="" fieldOrder="3" />
+<element name="ASSIGNMENT_ID" value="ASSIGNMENT_ID" label="ASSIGNMENT_ID" dataType="xsd:double" breakOrder="" fieldOrder="4"/>
+<element name="BUSINESS_GROUP_ID" value="BUSINESS_GROUP_ID" label="BUSINESS_GROUP_ID" dataType="xsd:double" breakOrder="" fieldOrder="5"/>
+<element name="PERSON_ID" value="PERSON_ID" label="PERSON_ID" dataType="xsd:double" breakOrder="" fieldOrder="6"/>
+<element name="PRIMARY_FLAG" value="PRIMARY_FLAG" label="PRIMARY_FLAG" dataType="xsd:string" breakOrder="" fieldOrder="7"/>
+<element name="MANAGER_ASSIGNMENT_ID" value="MANAGER_ASSIGNMENT_ID" label="MANAGER_ASSIGNMENT_ID" dataType="xsd:double" breakOrder="" fieldOrder="8"/>
+<element name="MANAGER_ID" value="MANAGER_ID" label="MANAGER_ID" dataType="xsd:double" breakOrder="" fieldOrder="9"/>
+<element name="MANAGER_TYPE" value="MANAGER_TYPE" label="MANAGER_TYPE" dataType="xsd:string" breakOrder="" fieldOrder="10"/>
+<element name="SUP_ATTRIBUTE_CATEGORY" value="SUP_ATTRIBUTE_CATEGORY" label="SUP_ATTRIBUTE_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="11"/>
+<element name="SUP_ATTRIBUTE1" value="SUP_ATTRIBUTE1" label="SUP_ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="12"/>
+<element name="SUP_ATTRIBUTE2" value="SUP_ATTRIBUTE2" label="SUP_ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="13"/>
+<element name="SUP_ATTRIBUTE3" value="SUP_ATTRIBUTE3" label="SUP_ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="14"/>
+<element name="SUP_ATTRIBUTE4" value="SUP_ATTRIBUTE4" label="SUP_ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="15"/>
+<element name="SUP_ATTRIBUTE5" value="SUP_ATTRIBUTE5" label="SUP_ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="16"/>
+<element name="SUP_ATTRIBUTE6" value="SUP_ATTRIBUTE6" label="SUP_ATTRIBUTE6" dataType="xsd:string" breakOrder="" fieldOrder="17"/>
+<element name="SUP_ATTRIBUTE7" value="SUP_ATTRIBUTE7" label="SUP_ATTRIBUTE7" dataType="xsd:string" breakOrder="" fieldOrder="18"/>
+<element name="SUP_ATTRIBUTE8" value="SUP_ATTRIBUTE8" label="SUP_ATTRIBUTE8" dataType="xsd:string" breakOrder="" fieldOrder="19"/>
+<element name="SUP_ATTRIBUTE9" value="SUP_ATTRIBUTE9" label="SUP_ATTRIBUTE9" dataType="xsd:string" breakOrder="" fieldOrder="20"/>
+<element name="SUP_ATTRIBUTE10" value="SUP_ATTRIBUTE10" label="SUP_ATTRIBUTE10" dataType="xsd:string" breakOrder="" fieldOrder="21"/>
+<element name="SUP_ATTRIBUTE11" value="SUP_ATTRIBUTE11" label="SUP_ATTRIBUTE11" dataType="xsd:string" breakOrder="" fieldOrder="22"/>
+<element name="SUP_ATTRIBUTE12" value="SUP_ATTRIBUTE12" label="SUP_ATTRIBUTE12" dataType="xsd:string" breakOrder="" fieldOrder="23"/>
+<element name="SUP_ATTRIBUTE13" value="SUP_ATTRIBUTE13" label="SUP_ATTRIBUTE13" dataType="xsd:string" breakOrder="" fieldOrder="24"/>
+<element name="SUP_ATTRIBUTE14" value="SUP_ATTRIBUTE14" label="SUP_ATTRIBUTE14" dataType="xsd:string" breakOrder="" fieldOrder="25"/>
+<element name="SUP_ATTRIBUTE15" value="SUP_ATTRIBUTE15" label="SUP_ATTRIBUTE15" dataType="xsd:string" breakOrder="" fieldOrder="26"/>
+<element name="SUP_ATTRIBUTE16" value="SUP_ATTRIBUTE16" label="SUP_ATTRIBUTE16" dataType="xsd:string" breakOrder="" fieldOrder="27"/>
+<element name="SUP_ATTRIBUTE17" value="SUP_ATTRIBUTE17" label="SUP_ATTRIBUTE17" dataType="xsd:string" breakOrder="" fieldOrder="28"/>
+<element name="SUP_ATTRIBUTE18" value="SUP_ATTRIBUTE18" label="SUP_ATTRIBUTE18" dataType="xsd:string" breakOrder="" fieldOrder="29"/>
+<element name="SUP_ATTRIBUTE19" value="SUP_ATTRIBUTE19" label="SUP_ATTRIBUTE19" dataType="xsd:string" breakOrder="" fieldOrder="30"/>
+<element name="SUP_ATTRIBUTE20" value="SUP_ATTRIBUTE20" label="SUP_ATTRIBUTE20" dataType="xsd:string" breakOrder="" fieldOrder="31"/>
+<element name="SUP_ATTRIBUTE21" value="SUP_ATTRIBUTE21" label="SUP_ATTRIBUTE21" dataType="xsd:string" breakOrder="" fieldOrder="32"/>
+<element name="SUP_ATTRIBUTE22" value="SUP_ATTRIBUTE22" label="SUP_ATTRIBUTE22" dataType="xsd:string" breakOrder="" fieldOrder="33"/>
+<element name="SUP_ATTRIBUTE23" value="SUP_ATTRIBUTE23" label="SUP_ATTRIBUTE23" dataType="xsd:string" breakOrder="" fieldOrder="34"/>
+<element name="SUP_ATTRIBUTE24" value="SUP_ATTRIBUTE24" label="SUP_ATTRIBUTE24" dataType="xsd:string" breakOrder="" fieldOrder="35"/>
+<element name="SUP_ATTRIBUTE25" value="SUP_ATTRIBUTE25" label="SUP_ATTRIBUTE25" dataType="xsd:string" breakOrder="" fieldOrder="36"/>
+<element name="SUP_ATTRIBUTE26" value="SUP_ATTRIBUTE26" label="SUP_ATTRIBUTE26" dataType="xsd:string" breakOrder="" fieldOrder="37"/>
+<element name="SUP_ATTRIBUTE27" value="SUP_ATTRIBUTE27" label="SUP_ATTRIBUTE27" dataType="xsd:string" breakOrder="" fieldOrder="38"/>
+<element name="SUP_ATTRIBUTE28" value="SUP_ATTRIBUTE28" label="SUP_ATTRIBUTE28" dataType="xsd:string" breakOrder="" fieldOrder="39"/>
+<element name="SUP_ATTRIBUTE29" value="SUP_ATTRIBUTE29" label="SUP_ATTRIBUTE29" dataType="xsd:string" breakOrder="" fieldOrder="40"/>
+<element name="SUP_ATTRIBUTE30" value="SUP_ATTRIBUTE30" label="SUP_ATTRIBUTE30" dataType="xsd:string" breakOrder="" fieldOrder="41"/>
+<element name="SUP_ATTRIBUTE_NUMBER1" value="SUP_ATTRIBUTE_NUMBER1" label="SUP_ATTRIBUTE_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="42"/>
+<element name="SUP_ATTRIBUTE_NUMBER2" value="SUP_ATTRIBUTE_NUMBER2" label="SUP_ATTRIBUTE_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="43"/>
+<element name="SUP_ATTRIBUTE_NUMBER3" value="SUP_ATTRIBUTE_NUMBER3" label="SUP_ATTRIBUTE_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="44"/>
+<element name="SUP_ATTRIBUTE_NUMBER4" value="SUP_ATTRIBUTE_NUMBER4" label="SUP_ATTRIBUTE_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="45"/>
+<element name="SUP_ATTRIBUTE_NUMBER5" value="SUP_ATTRIBUTE_NUMBER5" label="SUP_ATTRIBUTE_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="46"/>
+<element name="SUP_ATTRIBUTE_NUMBER6" value="SUP_ATTRIBUTE_NUMBER6" label="SUP_ATTRIBUTE_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="47"/>
+<element name="SUP_ATTRIBUTE_NUMBER7" value="SUP_ATTRIBUTE_NUMBER7" label="SUP_ATTRIBUTE_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="48"/>
+<element name="SUP_ATTRIBUTE_NUMBER8" value="SUP_ATTRIBUTE_NUMBER8" label="SUP_ATTRIBUTE_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="49"/>
+<element name="SUP_ATTRIBUTE_NUMBER9" value="SUP_ATTRIBUTE_NUMBER9" label="SUP_ATTRIBUTE_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="50"/>
+<element name="SUP_ATTRIBUTE_NUMBER10" value="SUP_ATTRIBUTE_NUMBER10" label="SUP_ATTRIBUTE_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="51"/>
+<element name="SUP_ATTRIBUTE_NUMBER11" value="SUP_ATTRIBUTE_NUMBER11" label="SUP_ATTRIBUTE_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="52"/>
+<element name="SUP_ATTRIBUTE_NUMBER12" value="SUP_ATTRIBUTE_NUMBER12" label="SUP_ATTRIBUTE_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="53"/>
+<element name="SUP_ATTRIBUTE_NUMBER13" value="SUP_ATTRIBUTE_NUMBER13" label="SUP_ATTRIBUTE_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="54"/>
+<element name="SUP_ATTRIBUTE_NUMBER14" value="SUP_ATTRIBUTE_NUMBER14" label="SUP_ATTRIBUTE_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="55"/>
+<element name="SUP_ATTRIBUTE_NUMBER15" value="SUP_ATTRIBUTE_NUMBER15" label="SUP_ATTRIBUTE_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="56"/>
+<element name="SUP_ATTRIBUTE_NUMBER16" value="SUP_ATTRIBUTE_NUMBER16" label="SUP_ATTRIBUTE_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="57"/>
+<element name="SUP_ATTRIBUTE_NUMBER17" value="SUP_ATTRIBUTE_NUMBER17" label="SUP_ATTRIBUTE_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="58"/>
+<element name="SUP_ATTRIBUTE_NUMBER18" value="SUP_ATTRIBUTE_NUMBER18" label="SUP_ATTRIBUTE_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="59"/>
+<element name="SUP_ATTRIBUTE_NUMBER19" value="SUP_ATTRIBUTE_NUMBER19" label="SUP_ATTRIBUTE_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="60"/>
+<element name="SUP_ATTRIBUTE_NUMBER20" value="SUP_ATTRIBUTE_NUMBER20" label="SUP_ATTRIBUTE_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="61"/>
+<element name="SUP_ATTRIBUTE_DATE1" value="SUP_ATTRIBUTE_DATE1" label="SUP_ATTRIBUTE_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="62" />
+<element name="SUP_ATTRIBUTE_DATE2" value="SUP_ATTRIBUTE_DATE2" label="SUP_ATTRIBUTE_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="63" />
+<element name="SUP_ATTRIBUTE_DATE3" value="SUP_ATTRIBUTE_DATE3" label="SUP_ATTRIBUTE_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="64" />
+<element name="SUP_ATTRIBUTE_DATE4" value="SUP_ATTRIBUTE_DATE4" label="SUP_ATTRIBUTE_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="65" />
+<element name="SUP_ATTRIBUTE_DATE5" value="SUP_ATTRIBUTE_DATE5" label="SUP_ATTRIBUTE_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="66" />
+<element name="SUP_ATTRIBUTE_DATE6" value="SUP_ATTRIBUTE_DATE6" label="SUP_ATTRIBUTE_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="67" />
+<element name="SUP_ATTRIBUTE_DATE7" value="SUP_ATTRIBUTE_DATE7" label="SUP_ATTRIBUTE_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="68" />
+<element name="SUP_ATTRIBUTE_DATE8" value="SUP_ATTRIBUTE_DATE8" label="SUP_ATTRIBUTE_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="69" />
+<element name="SUP_ATTRIBUTE_DATE9" value="SUP_ATTRIBUTE_DATE9" label="SUP_ATTRIBUTE_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="70" />
+<element name="SUP_ATTRIBUTE_DATE10" value="SUP_ATTRIBUTE_DATE10" label="SUP_ATTRIBUTE_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="71" />
+<element name="SUP_ATTRIBUTE_DATE11" value="SUP_ATTRIBUTE_DATE11" label="SUP_ATTRIBUTE_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="72" />
+<element name="SUP_ATTRIBUTE_DATE12" value="SUP_ATTRIBUTE_DATE12" label="SUP_ATTRIBUTE_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="73" />
+<element name="SUP_ATTRIBUTE_DATE13" value="SUP_ATTRIBUTE_DATE13" label="SUP_ATTRIBUTE_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="74" />
+<element name="SUP_ATTRIBUTE_DATE14" value="SUP_ATTRIBUTE_DATE14" label="SUP_ATTRIBUTE_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="75" />
+<element name="SUP_ATTRIBUTE_DATE15" value="SUP_ATTRIBUTE_DATE15" label="SUP_ATTRIBUTE_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="76" />
+<element name="OBJECT_VERSION_NUMBER" value="OBJECT_VERSION_NUMBER" label="OBJECT_VERSION_NUMBER" dataType="xsd:integer" breakOrder="" fieldOrder="77"/>
+<element name="CREATED_BY" value="CREATED_BY" label="CREATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="78"/>
+<element name="CREATION_DATE" value="CREATION_DATE" label="CREATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="79" />
+<element name="LAST_UPDATE_DATE" value="LAST_UPDATE_DATE" label="LAST_UPDATE_DATE" dataType="xsd:date" breakOrder="" fieldOrder="80" />
+<element name="LAST_UPDATE_LOGIN" value="LAST_UPDATE_LOGIN" label="LAST_UPDATE_LOGIN" dataType="xsd:string" breakOrder="" fieldOrder="81"/>
+<element name="LAST_UPDATED_BY" value="LAST_UPDATED_BY" label="LAST_UPDATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="82"/>
+<element name="ACTION_OCCURRENCE_ID" value="ACTION_OCCURRENCE_ID" label="ACTION_OCCURRENCE_ID" dataType="xsd:double" breakOrder="" fieldOrder="83"/>
+<element name="WORKING_PERCENTAGE" value="WORKING_PERCENTAGE" label="WORKING_PERCENTAGE" dataType="xsd:integer" breakOrder="" fieldOrder="84"/>
+<element name="FREEZE_START_DATE" value="FREEZE_START_DATE" label="FREEZE_START_DATE" dataType="xsd:date" breakOrder="" fieldOrder="85" />
+<element name="FREEZE_UNTIL_DATE" value="FREEZE_UNTIL_DATE" label="FREEZE_UNTIL_DATE" dataType="xsd:date" breakOrder="" fieldOrder="86" />
+</group>
+<group name="PER_PERSON_ADDR_USAGES_F" label="PER_PERSON_ADDR_USAGES_F" source="PER_PERSON_ADDR_USAGES_F">
+<element name="PERSON_ADDR_USAGE_ID" value="PERSON_ADDR_USAGE_ID" label="PERSON_ADDR_USAGE_ID" dataType="xsd:double" breakOrder="" fieldOrder="1"/>
+<element name="EFFECTIVE_START_DATE" value="EFFECTIVE_START_DATE" label="EFFECTIVE_START_DATE" dataType="xsd:date" breakOrder="" fieldOrder="2" />
+<element name="EFFECTIVE_END_DATE" value="EFFECTIVE_END_DATE" label="EFFECTIVE_END_DATE" dataType="xsd:date" breakOrder="" fieldOrder="3" />
+<element name="PERSON_ID" value="PERSON_ID" label="PERSON_ID" dataType="xsd:double" breakOrder="" fieldOrder="4"/>
+<element name="BUSINESS_GROUP_ID" value="BUSINESS_GROUP_ID" label="BUSINESS_GROUP_ID" dataType="xsd:double" breakOrder="" fieldOrder="5"/>
+<element name="ADDRESS_ID" value="ADDRESS_ID" label="ADDRESS_ID" dataType="xsd:double" breakOrder="" fieldOrder="6"/>
+<element name="ADDRESS_TYPE" value="ADDRESS_TYPE" label="ADDRESS_TYPE" dataType="xsd:string" breakOrder="" fieldOrder="7"/>
+<element name="ATTRIBUTE_CATEGORY" value="ATTRIBUTE_CATEGORY" label="ATTRIBUTE_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="8"/>
+<element name="ATTRIBUTE1" value="ATTRIBUTE1" label="ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="9"/>
+<element name="ATTRIBUTE2" value="ATTRIBUTE2" label="ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="10"/>
+<element name="ATTRIBUTE3" value="ATTRIBUTE3" label="ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="11"/>
+<element name="ATTRIBUTE4" value="ATTRIBUTE4" label="ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="12"/>
+<element name="ATTRIBUTE5" value="ATTRIBUTE5" label="ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="13"/>
+<element name="ATTRIBUTE6" value="ATTRIBUTE6" label="ATTRIBUTE6" dataType="xsd:string" breakOrder="" fieldOrder="14"/>
+<element name="ATTRIBUTE7" value="ATTRIBUTE7" label="ATTRIBUTE7" dataType="xsd:string" breakOrder="" fieldOrder="15"/>
+<element name="ATTRIBUTE8" value="ATTRIBUTE8" label="ATTRIBUTE8" dataType="xsd:string" breakOrder="" fieldOrder="16"/>
+<element name="ATTRIBUTE9" value="ATTRIBUTE9" label="ATTRIBUTE9" dataType="xsd:string" breakOrder="" fieldOrder="17"/>
+<element name="ATTRIBUTE10" value="ATTRIBUTE10" label="ATTRIBUTE10" dataType="xsd:string" breakOrder="" fieldOrder="18"/>
+<element name="ATTRIBUTE11" value="ATTRIBUTE11" label="ATTRIBUTE11" dataType="xsd:string" breakOrder="" fieldOrder="19"/>
+<element name="ATTRIBUTE12" value="ATTRIBUTE12" label="ATTRIBUTE12" dataType="xsd:string" breakOrder="" fieldOrder="20"/>
+<element name="ATTRIBUTE13" value="ATTRIBUTE13" label="ATTRIBUTE13" dataType="xsd:string" breakOrder="" fieldOrder="21"/>
+<element name="ATTRIBUTE14" value="ATTRIBUTE14" label="ATTRIBUTE14" dataType="xsd:string" breakOrder="" fieldOrder="22"/>
+<element name="ATTRIBUTE15" value="ATTRIBUTE15" label="ATTRIBUTE15" dataType="xsd:string" breakOrder="" fieldOrder="23"/>
+<element name="ATTRIBUTE16" value="ATTRIBUTE16" label="ATTRIBUTE16" dataType="xsd:string" breakOrder="" fieldOrder="24"/>
+<element name="ATTRIBUTE17" value="ATTRIBUTE17" label="ATTRIBUTE17" dataType="xsd:string" breakOrder="" fieldOrder="25"/>
+<element name="ATTRIBUTE18" value="ATTRIBUTE18" label="ATTRIBUTE18" dataType="xsd:string" breakOrder="" fieldOrder="26"/>
+<element name="ATTRIBUTE19" value="ATTRIBUTE19" label="ATTRIBUTE19" dataType="xsd:string" breakOrder="" fieldOrder="27"/>
+<element name="ATTRIBUTE20" value="ATTRIBUTE20" label="ATTRIBUTE20" dataType="xsd:string" breakOrder="" fieldOrder="28"/>
+<element name="ATTRIBUTE21" value="ATTRIBUTE21" label="ATTRIBUTE21" dataType="xsd:string" breakOrder="" fieldOrder="29"/>
+<element name="ATTRIBUTE22" value="ATTRIBUTE22" label="ATTRIBUTE22" dataType="xsd:string" breakOrder="" fieldOrder="30"/>
+<element name="ATTRIBUTE23" value="ATTRIBUTE23" label="ATTRIBUTE23" dataType="xsd:string" breakOrder="" fieldOrder="31"/>
+<element name="ATTRIBUTE24" value="ATTRIBUTE24" label="ATTRIBUTE24" dataType="xsd:string" breakOrder="" fieldOrder="32"/>
+<element name="ATTRIBUTE25" value="ATTRIBUTE25" label="ATTRIBUTE25" dataType="xsd:string" breakOrder="" fieldOrder="33"/>
+<element name="ATTRIBUTE26" value="ATTRIBUTE26" label="ATTRIBUTE26" dataType="xsd:string" breakOrder="" fieldOrder="34"/>
+<element name="ATTRIBUTE27" value="ATTRIBUTE27" label="ATTRIBUTE27" dataType="xsd:string" breakOrder="" fieldOrder="35"/>
+<element name="ATTRIBUTE28" value="ATTRIBUTE28" label="ATTRIBUTE28" dataType="xsd:string" breakOrder="" fieldOrder="36"/>
+<element name="ATTRIBUTE29" value="ATTRIBUTE29" label="ATTRIBUTE29" dataType="xsd:string" breakOrder="" fieldOrder="37"/>
+<element name="ATTRIBUTE30" value="ATTRIBUTE30" label="ATTRIBUTE30" dataType="xsd:string" breakOrder="" fieldOrder="38"/>
+<element name="ATTRIBUTE_NUMBER1" value="ATTRIBUTE_NUMBER1" label="ATTRIBUTE_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="39"/>
+<element name="ATTRIBUTE_NUMBER2" value="ATTRIBUTE_NUMBER2" label="ATTRIBUTE_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="40"/>
+<element name="ATTRIBUTE_NUMBER3" value="ATTRIBUTE_NUMBER3" label="ATTRIBUTE_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="41"/>
+<element name="ATTRIBUTE_NUMBER4" value="ATTRIBUTE_NUMBER4" label="ATTRIBUTE_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="42"/>
+<element name="ATTRIBUTE_NUMBER5" value="ATTRIBUTE_NUMBER5" label="ATTRIBUTE_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="43"/>
+<element name="ATTRIBUTE_NUMBER6" value="ATTRIBUTE_NUMBER6" label="ATTRIBUTE_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="44"/>
+<element name="ATTRIBUTE_NUMBER7" value="ATTRIBUTE_NUMBER7" label="ATTRIBUTE_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="45"/>
+<element name="ATTRIBUTE_NUMBER8" value="ATTRIBUTE_NUMBER8" label="ATTRIBUTE_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="46"/>
+<element name="ATTRIBUTE_NUMBER9" value="ATTRIBUTE_NUMBER9" label="ATTRIBUTE_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="47"/>
+<element name="ATTRIBUTE_NUMBER10" value="ATTRIBUTE_NUMBER10" label="ATTRIBUTE_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="48"/>
+<element name="ATTRIBUTE_NUMBER11" value="ATTRIBUTE_NUMBER11" label="ATTRIBUTE_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="49"/>
+<element name="ATTRIBUTE_NUMBER12" value="ATTRIBUTE_NUMBER12" label="ATTRIBUTE_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="50"/>
+<element name="ATTRIBUTE_NUMBER13" value="ATTRIBUTE_NUMBER13" label="ATTRIBUTE_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="51"/>
+<element name="ATTRIBUTE_NUMBER14" value="ATTRIBUTE_NUMBER14" label="ATTRIBUTE_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="52"/>
+<element name="ATTRIBUTE_NUMBER15" value="ATTRIBUTE_NUMBER15" label="ATTRIBUTE_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="53"/>
+<element name="ATTRIBUTE_NUMBER16" value="ATTRIBUTE_NUMBER16" label="ATTRIBUTE_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="54"/>
+<element name="ATTRIBUTE_NUMBER17" value="ATTRIBUTE_NUMBER17" label="ATTRIBUTE_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="55"/>
+<element name="ATTRIBUTE_NUMBER18" value="ATTRIBUTE_NUMBER18" label="ATTRIBUTE_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="56"/>
+<element name="ATTRIBUTE_NUMBER19" value="ATTRIBUTE_NUMBER19" label="ATTRIBUTE_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="57"/>
+<element name="ATTRIBUTE_NUMBER20" value="ATTRIBUTE_NUMBER20" label="ATTRIBUTE_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="58"/>
+<element name="ATTRIBUTE_DATE1" value="ATTRIBUTE_DATE1" label="ATTRIBUTE_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="59" />
+<element name="ATTRIBUTE_DATE2" value="ATTRIBUTE_DATE2" label="ATTRIBUTE_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="60" />
+<element name="ATTRIBUTE_DATE3" value="ATTRIBUTE_DATE3" label="ATTRIBUTE_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="61" />
+<element name="ATTRIBUTE_DATE4" value="ATTRIBUTE_DATE4" label="ATTRIBUTE_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="62" />
+<element name="ATTRIBUTE_DATE5" value="ATTRIBUTE_DATE5" label="ATTRIBUTE_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="63" />
+<element name="ATTRIBUTE_DATE6" value="ATTRIBUTE_DATE6" label="ATTRIBUTE_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="64" />
+<element name="ATTRIBUTE_DATE7" value="ATTRIBUTE_DATE7" label="ATTRIBUTE_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="65" />
+<element name="ATTRIBUTE_DATE8" value="ATTRIBUTE_DATE8" label="ATTRIBUTE_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="66" />
+<element name="ATTRIBUTE_DATE9" value="ATTRIBUTE_DATE9" label="ATTRIBUTE_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="67" />
+<element name="ATTRIBUTE_DATE10" value="ATTRIBUTE_DATE10" label="ATTRIBUTE_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="68" />
+<element name="ATTRIBUTE_DATE11" value="ATTRIBUTE_DATE11" label="ATTRIBUTE_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="69" />
+<element name="ATTRIBUTE_DATE12" value="ATTRIBUTE_DATE12" label="ATTRIBUTE_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="70" />
+<element name="ATTRIBUTE_DATE13" value="ATTRIBUTE_DATE13" label="ATTRIBUTE_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="71" />
+<element name="ATTRIBUTE_DATE14" value="ATTRIBUTE_DATE14" label="ATTRIBUTE_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="72" />
+<element name="ATTRIBUTE_DATE15" value="ATTRIBUTE_DATE15" label="ATTRIBUTE_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="73" />
+<element name="OBJECT_VERSION_NUMBER" value="OBJECT_VERSION_NUMBER" label="OBJECT_VERSION_NUMBER" dataType="xsd:integer" breakOrder="" fieldOrder="74"/>
+<element name="CREATED_BY" value="CREATED_BY" label="CREATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="75"/>
+<element name="CREATION_DATE" value="CREATION_DATE" label="CREATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="76" />
+<element name="LAST_UPDATE_DATE" value="LAST_UPDATE_DATE" label="LAST_UPDATE_DATE" dataType="xsd:date" breakOrder="" fieldOrder="77" />
+<element name="LAST_UPDATE_LOGIN" value="LAST_UPDATE_LOGIN" label="LAST_UPDATE_LOGIN" dataType="xsd:string" breakOrder="" fieldOrder="78"/>
+<element name="LAST_UPDATED_BY" value="LAST_UPDATED_BY" label="LAST_UPDATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="79"/>
+</group>
+<group name="PER_PEOPLE_LEGISLATIVE_F" label="PER_PEOPLE_LEGISLATIVE_F" source="PER_PEOPLE_LEGISLATIVE_F">
+<element name="PERSON_LEGISLATIVE_ID" value="PERSON_LEGISLATIVE_ID" label="PERSON_LEGISLATIVE_ID" dataType="xsd:double" breakOrder="" fieldOrder="1"/>
+<element name="EFFECTIVE_START_DATE" value="EFFECTIVE_START_DATE" label="EFFECTIVE_START_DATE" dataType="xsd:date" breakOrder="" fieldOrder="2" />
+<element name="EFFECTIVE_END_DATE" value="EFFECTIVE_END_DATE" label="EFFECTIVE_END_DATE" dataType="xsd:date" breakOrder="" fieldOrder="3" />
+<element name="PERSON_ID" value="PERSON_ID" label="PERSON_ID" dataType="xsd:double" breakOrder="" fieldOrder="4"/>
+<element name="BUSINESS_GROUP_ID" value="BUSINESS_GROUP_ID" label="BUSINESS_GROUP_ID" dataType="xsd:double" breakOrder="" fieldOrder="5"/>
+<element name="LEGISLATION_CODE" value="LEGISLATION_CODE" label="LEGISLATION_CODE" dataType="xsd:string" breakOrder="" fieldOrder="6"/>
+<element name="SEX" value="SEX" label="SEX" dataType="xsd:string" breakOrder="" fieldOrder="7"/>
+<element name="MARITAL_STATUS" value="MARITAL_STATUS" label="MARITAL_STATUS" dataType="xsd:string" breakOrder="" fieldOrder="8"/>
+<element name="MARITAL_STATUS_DATE" value="MARITAL_STATUS_DATE" label="MARITAL_STATUS_DATE" dataType="xsd:date" breakOrder="" fieldOrder="9" />
+<element name="HIGHEST_EDUCATION_LEVEL" value="HIGHEST_EDUCATION_LEVEL" label="HIGHEST_EDUCATION_LEVEL" dataType="xsd:string" breakOrder="" fieldOrder="10"/>
+<element name="PER_INFORMATION_CATEGORY" value="PER_INFORMATION_CATEGORY" label="PER_INFORMATION_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="11"/>
+<element name="PER_INFORMATION1" value="PER_INFORMATION1" label="PER_INFORMATION1" dataType="xsd:string" breakOrder="" fieldOrder="12"/>
+<element name="PER_INFORMATION2" value="PER_INFORMATION2" label="PER_INFORMATION2" dataType="xsd:string" breakOrder="" fieldOrder="13"/>
+<element name="PER_INFORMATION3" value="PER_INFORMATION3" label="PER_INFORMATION3" dataType="xsd:string" breakOrder="" fieldOrder="14"/>
+<element name="PER_INFORMATION4" value="PER_INFORMATION4" label="PER_INFORMATION4" dataType="xsd:string" breakOrder="" fieldOrder="15"/>
+<element name="PER_INFORMATION5" value="PER_INFORMATION5" label="PER_INFORMATION5" dataType="xsd:string" breakOrder="" fieldOrder="16"/>
+<element name="PER_INFORMATION6" value="PER_INFORMATION6" label="PER_INFORMATION6" dataType="xsd:string" breakOrder="" fieldOrder="17"/>
+<element name="PER_INFORMATION7" value="PER_INFORMATION7" label="PER_INFORMATION7" dataType="xsd:string" breakOrder="" fieldOrder="18"/>
+<element name="PER_INFORMATION8" value="PER_INFORMATION8" label="PER_INFORMATION8" dataType="xsd:string" breakOrder="" fieldOrder="19"/>
+<element name="PER_INFORMATION9" value="PER_INFORMATION9" label="PER_INFORMATION9" dataType="xsd:string" breakOrder="" fieldOrder="20"/>
+<element name="PER_INFORMATION10" value="PER_INFORMATION10" label="PER_INFORMATION10" dataType="xsd:string" breakOrder="" fieldOrder="21"/>
+<element name="PER_INFORMATION11" value="PER_INFORMATION11" label="PER_INFORMATION11" dataType="xsd:string" breakOrder="" fieldOrder="22"/>
+<element name="PER_INFORMATION12" value="PER_INFORMATION12" label="PER_INFORMATION12" dataType="xsd:string" breakOrder="" fieldOrder="23"/>
+<element name="PER_INFORMATION13" value="PER_INFORMATION13" label="PER_INFORMATION13" dataType="xsd:string" breakOrder="" fieldOrder="24"/>
+<element name="PER_INFORMATION14" value="PER_INFORMATION14" label="PER_INFORMATION14" dataType="xsd:string" breakOrder="" fieldOrder="25"/>
+<element name="PER_INFORMATION15" value="PER_INFORMATION15" label="PER_INFORMATION15" dataType="xsd:string" breakOrder="" fieldOrder="26"/>
+<element name="PER_INFORMATION16" value="PER_INFORMATION16" label="PER_INFORMATION16" dataType="xsd:string" breakOrder="" fieldOrder="27"/>
+<element name="PER_INFORMATION17" value="PER_INFORMATION17" label="PER_INFORMATION17" dataType="xsd:string" breakOrder="" fieldOrder="28"/>
+<element name="PER_INFORMATION18" value="PER_INFORMATION18" label="PER_INFORMATION18" dataType="xsd:string" breakOrder="" fieldOrder="29"/>
+<element name="PER_INFORMATION19" value="PER_INFORMATION19" label="PER_INFORMATION19" dataType="xsd:string" breakOrder="" fieldOrder="30"/>
+<element name="PER_INFORMATION20" value="PER_INFORMATION20" label="PER_INFORMATION20" dataType="xsd:string" breakOrder="" fieldOrder="31"/>
+<element name="PER_INFORMATION21" value="PER_INFORMATION21" label="PER_INFORMATION21" dataType="xsd:string" breakOrder="" fieldOrder="32"/>
+<element name="PER_INFORMATION22" value="PER_INFORMATION22" label="PER_INFORMATION22" dataType="xsd:string" breakOrder="" fieldOrder="33"/>
+<element name="PER_INFORMATION23" value="PER_INFORMATION23" label="PER_INFORMATION23" dataType="xsd:string" breakOrder="" fieldOrder="34"/>
+<element name="PER_INFORMATION24" value="PER_INFORMATION24" label="PER_INFORMATION24" dataType="xsd:string" breakOrder="" fieldOrder="35"/>
+<element name="PER_INFORMATION25" value="PER_INFORMATION25" label="PER_INFORMATION25" dataType="xsd:string" breakOrder="" fieldOrder="36"/>
+<element name="PER_INFORMATION26" value="PER_INFORMATION26" label="PER_INFORMATION26" dataType="xsd:string" breakOrder="" fieldOrder="37"/>
+<element name="PER_INFORMATION27" value="PER_INFORMATION27" label="PER_INFORMATION27" dataType="xsd:string" breakOrder="" fieldOrder="38"/>
+<element name="PER_INFORMATION28" value="PER_INFORMATION28" label="PER_INFORMATION28" dataType="xsd:string" breakOrder="" fieldOrder="39"/>
+<element name="PER_INFORMATION29" value="PER_INFORMATION29" label="PER_INFORMATION29" dataType="xsd:string" breakOrder="" fieldOrder="40"/>
+<element name="PER_INFORMATION30" value="PER_INFORMATION30" label="PER_INFORMATION30" dataType="xsd:string" breakOrder="" fieldOrder="41"/>
+<element name="PER_INFORMATION_NUMBER1" value="PER_INFORMATION_NUMBER1" label="PER_INFORMATION_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="42"/>
+<element name="PER_INFORMATION_NUMBER2" value="PER_INFORMATION_NUMBER2" label="PER_INFORMATION_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="43"/>
+<element name="PER_INFORMATION_NUMBER3" value="PER_INFORMATION_NUMBER3" label="PER_INFORMATION_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="44"/>
+<element name="PER_INFORMATION_NUMBER4" value="PER_INFORMATION_NUMBER4" label="PER_INFORMATION_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="45"/>
+<element name="PER_INFORMATION_NUMBER5" value="PER_INFORMATION_NUMBER5" label="PER_INFORMATION_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="46"/>
+<element name="PER_INFORMATION_NUMBER6" value="PER_INFORMATION_NUMBER6" label="PER_INFORMATION_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="47"/>
+<element name="PER_INFORMATION_NUMBER7" value="PER_INFORMATION_NUMBER7" label="PER_INFORMATION_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="48"/>
+<element name="PER_INFORMATION_NUMBER8" value="PER_INFORMATION_NUMBER8" label="PER_INFORMATION_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="49"/>
+<element name="PER_INFORMATION_NUMBER9" value="PER_INFORMATION_NUMBER9" label="PER_INFORMATION_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="50"/>
+<element name="PER_INFORMATION_NUMBER10" value="PER_INFORMATION_NUMBER10" label="PER_INFORMATION_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="51"/>
+<element name="PER_INFORMATION_NUMBER11" value="PER_INFORMATION_NUMBER11" label="PER_INFORMATION_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="52"/>
+<element name="PER_INFORMATION_NUMBER12" value="PER_INFORMATION_NUMBER12" label="PER_INFORMATION_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="53"/>
+<element name="PER_INFORMATION_NUMBER13" value="PER_INFORMATION_NUMBER13" label="PER_INFORMATION_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="54"/>
+<element name="PER_INFORMATION_NUMBER14" value="PER_INFORMATION_NUMBER14" label="PER_INFORMATION_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="55"/>
+<element name="PER_INFORMATION_NUMBER15" value="PER_INFORMATION_NUMBER15" label="PER_INFORMATION_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="56"/>
+<element name="PER_INFORMATION_NUMBER16" value="PER_INFORMATION_NUMBER16" label="PER_INFORMATION_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="57"/>
+<element name="PER_INFORMATION_NUMBER17" value="PER_INFORMATION_NUMBER17" label="PER_INFORMATION_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="58"/>
+<element name="PER_INFORMATION_NUMBER18" value="PER_INFORMATION_NUMBER18" label="PER_INFORMATION_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="59"/>
+<element name="PER_INFORMATION_NUMBER19" value="PER_INFORMATION_NUMBER19" label="PER_INFORMATION_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="60"/>
+<element name="PER_INFORMATION_NUMBER20" value="PER_INFORMATION_NUMBER20" label="PER_INFORMATION_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="61"/>
+<element name="PER_INFORMATION_DATE1" value="PER_INFORMATION_DATE1" label="PER_INFORMATION_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="62" />
+<element name="PER_INFORMATION_DATE2" value="PER_INFORMATION_DATE2" label="PER_INFORMATION_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="63" />
+<element name="PER_INFORMATION_DATE3" value="PER_INFORMATION_DATE3" label="PER_INFORMATION_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="64" />
+<element name="PER_INFORMATION_DATE4" value="PER_INFORMATION_DATE4" label="PER_INFORMATION_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="65" />
+<element name="PER_INFORMATION_DATE5" value="PER_INFORMATION_DATE5" label="PER_INFORMATION_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="66" />
+<element name="PER_INFORMATION_DATE6" value="PER_INFORMATION_DATE6" label="PER_INFORMATION_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="67" />
+<element name="PER_INFORMATION_DATE7" value="PER_INFORMATION_DATE7" label="PER_INFORMATION_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="68" />
+<element name="PER_INFORMATION_DATE8" value="PER_INFORMATION_DATE8" label="PER_INFORMATION_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="69" />
+<element name="PER_INFORMATION_DATE9" value="PER_INFORMATION_DATE9" label="PER_INFORMATION_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="70" />
+<element name="PER_INFORMATION_DATE10" value="PER_INFORMATION_DATE10" label="PER_INFORMATION_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="71" />
+<element name="PER_INFORMATION_DATE11" value="PER_INFORMATION_DATE11" label="PER_INFORMATION_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="72" />
+<element name="PER_INFORMATION_DATE12" value="PER_INFORMATION_DATE12" label="PER_INFORMATION_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="73" />
+<element name="PER_INFORMATION_DATE13" value="PER_INFORMATION_DATE13" label="PER_INFORMATION_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="74" />
+<element name="PER_INFORMATION_DATE14" value="PER_INFORMATION_DATE14" label="PER_INFORMATION_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="75" />
+<element name="PER_INFORMATION_DATE15" value="PER_INFORMATION_DATE15" label="PER_INFORMATION_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="76" />
+<element name="ATTRIBUTE_CATEGORY" value="ATTRIBUTE_CATEGORY" label="ATTRIBUTE_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="77"/>
+<element name="ATTRIBUTE1" value="ATTRIBUTE1" label="ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="78"/>
+<element name="ATTRIBUTE2" value="ATTRIBUTE2" label="ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="79"/>
+<element name="ATTRIBUTE3" value="ATTRIBUTE3" label="ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="80"/>
+<element name="ATTRIBUTE4" value="ATTRIBUTE4" label="ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="81"/>
+<element name="ATTRIBUTE5" value="ATTRIBUTE5" label="ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="82"/>
+<element name="ATTRIBUTE6" value="ATTRIBUTE6" label="ATTRIBUTE6" dataType="xsd:string" breakOrder="" fieldOrder="83"/>
+<element name="ATTRIBUTE7" value="ATTRIBUTE7" label="ATTRIBUTE7" dataType="xsd:string" breakOrder="" fieldOrder="84"/>
+<element name="ATTRIBUTE8" value="ATTRIBUTE8" label="ATTRIBUTE8" dataType="xsd:string" breakOrder="" fieldOrder="85"/>
+<element name="ATTRIBUTE9" value="ATTRIBUTE9" label="ATTRIBUTE9" dataType="xsd:string" breakOrder="" fieldOrder="86"/>
+<element name="ATTRIBUTE10" value="ATTRIBUTE10" label="ATTRIBUTE10" dataType="xsd:string" breakOrder="" fieldOrder="87"/>
+<element name="ATTRIBUTE11" value="ATTRIBUTE11" label="ATTRIBUTE11" dataType="xsd:string" breakOrder="" fieldOrder="88"/>
+<element name="ATTRIBUTE12" value="ATTRIBUTE12" label="ATTRIBUTE12" dataType="xsd:string" breakOrder="" fieldOrder="89"/>
+<element name="ATTRIBUTE13" value="ATTRIBUTE13" label="ATTRIBUTE13" dataType="xsd:string" breakOrder="" fieldOrder="90"/>
+<element name="ATTRIBUTE14" value="ATTRIBUTE14" label="ATTRIBUTE14" dataType="xsd:string" breakOrder="" fieldOrder="91"/>
+<element name="ATTRIBUTE15" value="ATTRIBUTE15" label="ATTRIBUTE15" dataType="xsd:string" breakOrder="" fieldOrder="92"/>
+<element name="ATTRIBUTE16" value="ATTRIBUTE16" label="ATTRIBUTE16" dataType="xsd:string" breakOrder="" fieldOrder="93"/>
+<element name="ATTRIBUTE17" value="ATTRIBUTE17" label="ATTRIBUTE17" dataType="xsd:string" breakOrder="" fieldOrder="94"/>
+<element name="ATTRIBUTE18" value="ATTRIBUTE18" label="ATTRIBUTE18" dataType="xsd:string" breakOrder="" fieldOrder="95"/>
+<element name="ATTRIBUTE19" value="ATTRIBUTE19" label="ATTRIBUTE19" dataType="xsd:string" breakOrder="" fieldOrder="96"/>
+<element name="ATTRIBUTE20" value="ATTRIBUTE20" label="ATTRIBUTE20" dataType="xsd:string" breakOrder="" fieldOrder="97"/>
+<element name="ATTRIBUTE21" value="ATTRIBUTE21" label="ATTRIBUTE21" dataType="xsd:string" breakOrder="" fieldOrder="98"/>
+<element name="ATTRIBUTE22" value="ATTRIBUTE22" label="ATTRIBUTE22" dataType="xsd:string" breakOrder="" fieldOrder="99"/>
+<element name="ATTRIBUTE23" value="ATTRIBUTE23" label="ATTRIBUTE23" dataType="xsd:string" breakOrder="" fieldOrder="100"/>
+<element name="ATTRIBUTE24" value="ATTRIBUTE24" label="ATTRIBUTE24" dataType="xsd:string" breakOrder="" fieldOrder="101"/>
+<element name="ATTRIBUTE25" value="ATTRIBUTE25" label="ATTRIBUTE25" dataType="xsd:string" breakOrder="" fieldOrder="102"/>
+<element name="ATTRIBUTE26" value="ATTRIBUTE26" label="ATTRIBUTE26" dataType="xsd:string" breakOrder="" fieldOrder="103"/>
+<element name="ATTRIBUTE27" value="ATTRIBUTE27" label="ATTRIBUTE27" dataType="xsd:string" breakOrder="" fieldOrder="104"/>
+<element name="ATTRIBUTE28" value="ATTRIBUTE28" label="ATTRIBUTE28" dataType="xsd:string" breakOrder="" fieldOrder="105"/>
+<element name="ATTRIBUTE29" value="ATTRIBUTE29" label="ATTRIBUTE29" dataType="xsd:string" breakOrder="" fieldOrder="106"/>
+<element name="ATTRIBUTE30" value="ATTRIBUTE30" label="ATTRIBUTE30" dataType="xsd:string" breakOrder="" fieldOrder="107"/>
+<element name="ATTRIBUTE_NUMBER1" value="ATTRIBUTE_NUMBER1" label="ATTRIBUTE_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="108"/>
+<element name="ATTRIBUTE_NUMBER2" value="ATTRIBUTE_NUMBER2" label="ATTRIBUTE_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="109"/>
+<element name="ATTRIBUTE_NUMBER3" value="ATTRIBUTE_NUMBER3" label="ATTRIBUTE_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="110"/>
+<element name="ATTRIBUTE_NUMBER4" value="ATTRIBUTE_NUMBER4" label="ATTRIBUTE_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="111"/>
+<element name="ATTRIBUTE_NUMBER5" value="ATTRIBUTE_NUMBER5" label="ATTRIBUTE_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="112"/>
+<element name="ATTRIBUTE_NUMBER6" value="ATTRIBUTE_NUMBER6" label="ATTRIBUTE_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="113"/>
+<element name="ATTRIBUTE_NUMBER7" value="ATTRIBUTE_NUMBER7" label="ATTRIBUTE_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="114"/>
+<element name="ATTRIBUTE_NUMBER8" value="ATTRIBUTE_NUMBER8" label="ATTRIBUTE_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="115"/>
+<element name="ATTRIBUTE_NUMBER9" value="ATTRIBUTE_NUMBER9" label="ATTRIBUTE_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="116"/>
+<element name="ATTRIBUTE_NUMBER10" value="ATTRIBUTE_NUMBER10" label="ATTRIBUTE_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="117"/>
+<element name="ATTRIBUTE_NUMBER11" value="ATTRIBUTE_NUMBER11" label="ATTRIBUTE_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="118"/>
+<element name="ATTRIBUTE_NUMBER12" value="ATTRIBUTE_NUMBER12" label="ATTRIBUTE_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="119"/>
+<element name="ATTRIBUTE_NUMBER13" value="ATTRIBUTE_NUMBER13" label="ATTRIBUTE_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="120"/>
+<element name="ATTRIBUTE_NUMBER14" value="ATTRIBUTE_NUMBER14" label="ATTRIBUTE_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="121"/>
+<element name="ATTRIBUTE_NUMBER15" value="ATTRIBUTE_NUMBER15" label="ATTRIBUTE_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="122"/>
+<element name="ATTRIBUTE_NUMBER16" value="ATTRIBUTE_NUMBER16" label="ATTRIBUTE_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="123"/>
+<element name="ATTRIBUTE_NUMBER17" value="ATTRIBUTE_NUMBER17" label="ATTRIBUTE_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="124"/>
+<element name="ATTRIBUTE_NUMBER18" value="ATTRIBUTE_NUMBER18" label="ATTRIBUTE_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="125"/>
+<element name="ATTRIBUTE_NUMBER19" value="ATTRIBUTE_NUMBER19" label="ATTRIBUTE_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="126"/>
+<element name="ATTRIBUTE_NUMBER20" value="ATTRIBUTE_NUMBER20" label="ATTRIBUTE_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="127"/>
+<element name="ATTRIBUTE_DATE1" value="ATTRIBUTE_DATE1" label="ATTRIBUTE_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="128" />
+<element name="ATTRIBUTE_DATE2" value="ATTRIBUTE_DATE2" label="ATTRIBUTE_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="129" />
+<element name="ATTRIBUTE_DATE3" value="ATTRIBUTE_DATE3" label="ATTRIBUTE_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="130" />
+<element name="ATTRIBUTE_DATE4" value="ATTRIBUTE_DATE4" label="ATTRIBUTE_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="131" />
+<element name="ATTRIBUTE_DATE5" value="ATTRIBUTE_DATE5" label="ATTRIBUTE_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="132" />
+<element name="ATTRIBUTE_DATE6" value="ATTRIBUTE_DATE6" label="ATTRIBUTE_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="133" />
+<element name="ATTRIBUTE_DATE7" value="ATTRIBUTE_DATE7" label="ATTRIBUTE_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="134" />
+<element name="ATTRIBUTE_DATE8" value="ATTRIBUTE_DATE8" label="ATTRIBUTE_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="135" />
+<element name="ATTRIBUTE_DATE9" value="ATTRIBUTE_DATE9" label="ATTRIBUTE_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="136" />
+<element name="ATTRIBUTE_DATE10" value="ATTRIBUTE_DATE10" label="ATTRIBUTE_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="137" />
+<element name="ATTRIBUTE_DATE11" value="ATTRIBUTE_DATE11" label="ATTRIBUTE_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="138" />
+<element name="ATTRIBUTE_DATE12" value="ATTRIBUTE_DATE12" label="ATTRIBUTE_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="139" />
+<element name="ATTRIBUTE_DATE13" value="ATTRIBUTE_DATE13" label="ATTRIBUTE_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="140" />
+<element name="ATTRIBUTE_DATE14" value="ATTRIBUTE_DATE14" label="ATTRIBUTE_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="141" />
+<element name="ATTRIBUTE_DATE15" value="ATTRIBUTE_DATE15" label="ATTRIBUTE_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="142" />
+<element name="OBJECT_VERSION_NUMBER" value="OBJECT_VERSION_NUMBER" label="OBJECT_VERSION_NUMBER" dataType="xsd:integer" breakOrder="" fieldOrder="143"/>
+<element name="CREATED_BY" value="CREATED_BY" label="CREATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="144"/>
+<element name="CREATION_DATE" value="CREATION_DATE" label="CREATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="145" />
+<element name="LAST_UPDATED_BY" value="LAST_UPDATED_BY" label="LAST_UPDATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="146"/>
+<element name="LAST_UPDATE_DATE" value="LAST_UPDATE_DATE" label="LAST_UPDATE_DATE" dataType="xsd:date" breakOrder="" fieldOrder="147" />
+<element name="LAST_UPDATE_LOGIN" value="LAST_UPDATE_LOGIN" label="LAST_UPDATE_LOGIN" dataType="xsd:string" breakOrder="" fieldOrder="148"/>
+</group>
+<group name="PER_EMAIL_ADDRESSES" label="PER_EMAIL_ADDRESSES" source="PER_EMAIL_ADDRESSES">
+<element name="EMAIL_ADDRESS_ID" value="EMAIL_ADDRESS_ID" label="EMAIL_ADDRESS_ID" dataType="xsd:double" breakOrder="" fieldOrder="1"/>
+<element name="PERSON_ID" value="PERSON_ID" label="PERSON_ID" dataType="xsd:double" breakOrder="" fieldOrder="2"/>
+<element name="BUSINESS_GROUP_ID" value="BUSINESS_GROUP_ID" label="BUSINESS_GROUP_ID" dataType="xsd:double" breakOrder="" fieldOrder="3"/>
+<element name="EMAIL_TYPE" value="EMAIL_TYPE" label="EMAIL_TYPE" dataType="xsd:string" breakOrder="" fieldOrder="4"/>
+<element name="DATE_FROM" value="DATE_FROM" label="DATE_FROM" dataType="xsd:date" breakOrder="" fieldOrder="5" />
+<element name="DATE_TO" value="DATE_TO" label="DATE_TO" dataType="xsd:date" breakOrder="" fieldOrder="6" />
+<element name="EMAIL_ADDRESS" value="EMAIL_ADDRESS" label="EMAIL_ADDRESS" dataType="xsd:string" breakOrder="" fieldOrder="7"/>
+<element name="MASTERED_IN_LDAP_FLAG" value="MASTERED_IN_LDAP_FLAG" label="MASTERED_IN_LDAP_FLAG" dataType="xsd:string" breakOrder="" fieldOrder="8"/>
+<element name="ATTRIBUTE_CATEGORY" value="ATTRIBUTE_CATEGORY" label="ATTRIBUTE_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="9"/>
+<element name="ATTRIBUTE1" value="ATTRIBUTE1" label="ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="10"/>
+<element name="ATTRIBUTE2" value="ATTRIBUTE2" label="ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="11"/>
+<element name="ATTRIBUTE3" value="ATTRIBUTE3" label="ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="12"/>
+<element name="ATTRIBUTE4" value="ATTRIBUTE4" label="ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="13"/>
+<element name="ATTRIBUTE5" value="ATTRIBUTE5" label="ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="14"/>
+<element name="ATTRIBUTE6" value="ATTRIBUTE6" label="ATTRIBUTE6" dataType="xsd:string" breakOrder="" fieldOrder="15"/>
+<element name="ATTRIBUTE7" value="ATTRIBUTE7" label="ATTRIBUTE7" dataType="xsd:string" breakOrder="" fieldOrder="16"/>
+<element name="ATTRIBUTE8" value="ATTRIBUTE8" label="ATTRIBUTE8" dataType="xsd:string" breakOrder="" fieldOrder="17"/>
+<element name="ATTRIBUTE9" value="ATTRIBUTE9" label="ATTRIBUTE9" dataType="xsd:string" breakOrder="" fieldOrder="18"/>
+<element name="ATTRIBUTE10" value="ATTRIBUTE10" label="ATTRIBUTE10" dataType="xsd:string" breakOrder="" fieldOrder="19"/>
+<element name="ATTRIBUTE11" value="ATTRIBUTE11" label="ATTRIBUTE11" dataType="xsd:string" breakOrder="" fieldOrder="20"/>
+<element name="ATTRIBUTE12" value="ATTRIBUTE12" label="ATTRIBUTE12" dataType="xsd:string" breakOrder="" fieldOrder="21"/>
+<element name="ATTRIBUTE13" value="ATTRIBUTE13" label="ATTRIBUTE13" dataType="xsd:string" breakOrder="" fieldOrder="22"/>
+<element name="ATTRIBUTE14" value="ATTRIBUTE14" label="ATTRIBUTE14" dataType="xsd:string" breakOrder="" fieldOrder="23"/>
+<element name="ATTRIBUTE15" value="ATTRIBUTE15" label="ATTRIBUTE15" dataType="xsd:string" breakOrder="" fieldOrder="24"/>
+<element name="ATTRIBUTE16" value="ATTRIBUTE16" label="ATTRIBUTE16" dataType="xsd:string" breakOrder="" fieldOrder="25"/>
+<element name="ATTRIBUTE17" value="ATTRIBUTE17" label="ATTRIBUTE17" dataType="xsd:string" breakOrder="" fieldOrder="26"/>
+<element name="ATTRIBUTE18" value="ATTRIBUTE18" label="ATTRIBUTE18" dataType="xsd:string" breakOrder="" fieldOrder="27"/>
+<element name="ATTRIBUTE19" value="ATTRIBUTE19" label="ATTRIBUTE19" dataType="xsd:string" breakOrder="" fieldOrder="28"/>
+<element name="ATTRIBUTE20" value="ATTRIBUTE20" label="ATTRIBUTE20" dataType="xsd:string" breakOrder="" fieldOrder="29"/>
+<element name="ATTRIBUTE21" value="ATTRIBUTE21" label="ATTRIBUTE21" dataType="xsd:string" breakOrder="" fieldOrder="30"/>
+<element name="ATTRIBUTE22" value="ATTRIBUTE22" label="ATTRIBUTE22" dataType="xsd:string" breakOrder="" fieldOrder="31"/>
+<element name="ATTRIBUTE23" value="ATTRIBUTE23" label="ATTRIBUTE23" dataType="xsd:string" breakOrder="" fieldOrder="32"/>
+<element name="ATTRIBUTE24" value="ATTRIBUTE24" label="ATTRIBUTE24" dataType="xsd:string" breakOrder="" fieldOrder="33"/>
+<element name="ATTRIBUTE25" value="ATTRIBUTE25" label="ATTRIBUTE25" dataType="xsd:string" breakOrder="" fieldOrder="34"/>
+<element name="ATTRIBUTE26" value="ATTRIBUTE26" label="ATTRIBUTE26" dataType="xsd:string" breakOrder="" fieldOrder="35"/>
+<element name="ATTRIBUTE27" value="ATTRIBUTE27" label="ATTRIBUTE27" dataType="xsd:string" breakOrder="" fieldOrder="36"/>
+<element name="ATTRIBUTE28" value="ATTRIBUTE28" label="ATTRIBUTE28" dataType="xsd:string" breakOrder="" fieldOrder="37"/>
+<element name="ATTRIBUTE29" value="ATTRIBUTE29" label="ATTRIBUTE29" dataType="xsd:string" breakOrder="" fieldOrder="38"/>
+<element name="ATTRIBUTE30" value="ATTRIBUTE30" label="ATTRIBUTE30" dataType="xsd:string" breakOrder="" fieldOrder="39"/>
+<element name="ATTRIBUTE_NUMBER1" value="ATTRIBUTE_NUMBER1" label="ATTRIBUTE_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="40"/>
+<element name="ATTRIBUTE_NUMBER2" value="ATTRIBUTE_NUMBER2" label="ATTRIBUTE_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="41"/>
+<element name="ATTRIBUTE_NUMBER3" value="ATTRIBUTE_NUMBER3" label="ATTRIBUTE_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="42"/>
+<element name="ATTRIBUTE_NUMBER4" value="ATTRIBUTE_NUMBER4" label="ATTRIBUTE_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="43"/>
+<element name="ATTRIBUTE_NUMBER5" value="ATTRIBUTE_NUMBER5" label="ATTRIBUTE_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="44"/>
+<element name="ATTRIBUTE_NUMBER6" value="ATTRIBUTE_NUMBER6" label="ATTRIBUTE_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="45"/>
+<element name="ATTRIBUTE_NUMBER7" value="ATTRIBUTE_NUMBER7" label="ATTRIBUTE_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="46"/>
+<element name="ATTRIBUTE_NUMBER8" value="ATTRIBUTE_NUMBER8" label="ATTRIBUTE_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="47"/>
+<element name="ATTRIBUTE_NUMBER9" value="ATTRIBUTE_NUMBER9" label="ATTRIBUTE_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="48"/>
+<element name="ATTRIBUTE_NUMBER10" value="ATTRIBUTE_NUMBER10" label="ATTRIBUTE_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="49"/>
+<element name="ATTRIBUTE_NUMBER11" value="ATTRIBUTE_NUMBER11" label="ATTRIBUTE_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="50"/>
+<element name="ATTRIBUTE_NUMBER12" value="ATTRIBUTE_NUMBER12" label="ATTRIBUTE_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="51"/>
+<element name="ATTRIBUTE_NUMBER13" value="ATTRIBUTE_NUMBER13" label="ATTRIBUTE_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="52"/>
+<element name="ATTRIBUTE_NUMBER14" value="ATTRIBUTE_NUMBER14" label="ATTRIBUTE_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="53"/>
+<element name="ATTRIBUTE_NUMBER15" value="ATTRIBUTE_NUMBER15" label="ATTRIBUTE_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="54"/>
+<element name="ATTRIBUTE_NUMBER16" value="ATTRIBUTE_NUMBER16" label="ATTRIBUTE_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="55"/>
+<element name="ATTRIBUTE_NUMBER17" value="ATTRIBUTE_NUMBER17" label="ATTRIBUTE_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="56"/>
+<element name="ATTRIBUTE_NUMBER18" value="ATTRIBUTE_NUMBER18" label="ATTRIBUTE_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="57"/>
+<element name="ATTRIBUTE_NUMBER19" value="ATTRIBUTE_NUMBER19" label="ATTRIBUTE_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="58"/>
+<element name="ATTRIBUTE_NUMBER20" value="ATTRIBUTE_NUMBER20" label="ATTRIBUTE_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="59"/>
+<element name="ATTRIBUTE_DATE1" value="ATTRIBUTE_DATE1" label="ATTRIBUTE_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="60" />
+<element name="ATTRIBUTE_DATE2" value="ATTRIBUTE_DATE2" label="ATTRIBUTE_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="61" />
+<element name="ATTRIBUTE_DATE3" value="ATTRIBUTE_DATE3" label="ATTRIBUTE_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="62" />
+<element name="ATTRIBUTE_DATE4" value="ATTRIBUTE_DATE4" label="ATTRIBUTE_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="63" />
+<element name="ATTRIBUTE_DATE5" value="ATTRIBUTE_DATE5" label="ATTRIBUTE_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="64" />
+<element name="ATTRIBUTE_DATE6" value="ATTRIBUTE_DATE6" label="ATTRIBUTE_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="65" />
+<element name="ATTRIBUTE_DATE7" value="ATTRIBUTE_DATE7" label="ATTRIBUTE_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="66" />
+<element name="ATTRIBUTE_DATE8" value="ATTRIBUTE_DATE8" label="ATTRIBUTE_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="67" />
+<element name="ATTRIBUTE_DATE9" value="ATTRIBUTE_DATE9" label="ATTRIBUTE_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="68" />
+<element name="ATTRIBUTE_DATE10" value="ATTRIBUTE_DATE10" label="ATTRIBUTE_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="69" />
+<element name="ATTRIBUTE_DATE11" value="ATTRIBUTE_DATE11" label="ATTRIBUTE_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="70" />
+<element name="ATTRIBUTE_DATE12" value="ATTRIBUTE_DATE12" label="ATTRIBUTE_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="71" />
+<element name="ATTRIBUTE_DATE13" value="ATTRIBUTE_DATE13" label="ATTRIBUTE_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="72" />
+<element name="ATTRIBUTE_DATE14" value="ATTRIBUTE_DATE14" label="ATTRIBUTE_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="73" />
+<element name="ATTRIBUTE_DATE15" value="ATTRIBUTE_DATE15" label="ATTRIBUTE_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="74" />
+<element name="OBJECT_VERSION_NUMBER" value="OBJECT_VERSION_NUMBER" label="OBJECT_VERSION_NUMBER" dataType="xsd:integer" breakOrder="" fieldOrder="75"/>
+<element name="CREATED_BY" value="CREATED_BY" label="CREATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="76"/>
+<element name="CREATION_DATE" value="CREATION_DATE" label="CREATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="77" />
+<element name="LAST_UPDATE_DATE" value="LAST_UPDATE_DATE" label="LAST_UPDATE_DATE" dataType="xsd:date" breakOrder="" fieldOrder="78" />
+<element name="LAST_UPDATE_LOGIN" value="LAST_UPDATE_LOGIN" label="LAST_UPDATE_LOGIN" dataType="xsd:string" breakOrder="" fieldOrder="79"/>
+<element name="LAST_UPDATED_BY" value="LAST_UPDATED_BY" label="LAST_UPDATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="80"/>
+</group>
+<group name="PER_ASSIGN_WORK_MEASURES_F" label="PER_ASSIGN_WORK_MEASURES_F" source="PER_ASSIGN_WORK_MEASURES_F">
+<element name="ASSIGN_WORK_MEASURE_ID" value="ASSIGN_WORK_MEASURE_ID" label="ASSIGN_WORK_MEASURE_ID" dataType="xsd:double" breakOrder="" fieldOrder="1"/>
+<element name="BUSINESS_GROUP_ID" value="BUSINESS_GROUP_ID" label="BUSINESS_GROUP_ID" dataType="xsd:double" breakOrder="" fieldOrder="2"/>
+<element name="ASSIGNMENT_ID" value="ASSIGNMENT_ID" label="ASSIGNMENT_ID" dataType="xsd:double" breakOrder="" fieldOrder="3"/>
+<element name="UNIT" value="UNIT" label="UNIT" dataType="xsd:string" breakOrder="" fieldOrder="4"/>
+<element name="VALUE" value="VALUE" label="VALUE" dataType="xsd:double" breakOrder="" fieldOrder="5"/>
+<element name="LAST_UPDATE_DATE" value="LAST_UPDATE_DATE" label="LAST_UPDATE_DATE" dataType="xsd:date" breakOrder="" fieldOrder="6" />
+<element name="LAST_UPDATED_BY" value="LAST_UPDATED_BY" label="LAST_UPDATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="7"/>
+<element name="LAST_UPDATE_LOGIN" value="LAST_UPDATE_LOGIN" label="LAST_UPDATE_LOGIN" dataType="xsd:string" breakOrder="" fieldOrder="8"/>
+<element name="CREATED_BY" value="CREATED_BY" label="CREATED_BY" dataType="xsd:string" breakOrder="" fieldOrder="9"/>
+<element name="CREATION_DATE" value="CREATION_DATE" label="CREATION_DATE" dataType="xsd:date" breakOrder="" fieldOrder="10" />
+<element name="EFFECTIVE_START_DATE" value="EFFECTIVE_START_DATE" label="EFFECTIVE_START_DATE" dataType="xsd:date" breakOrder="" fieldOrder="11" />
+<element name="EFFECTIVE_END_DATE" value="EFFECTIVE_END_DATE" label="EFFECTIVE_END_DATE" dataType="xsd:date" breakOrder="" fieldOrder="12" />
+<element name="OBJECT_VERSION_NUMBER" value="OBJECT_VERSION_NUMBER" label="OBJECT_VERSION_NUMBER" dataType="xsd:integer" breakOrder="" fieldOrder="13"/>
+<element name="LEGISLATION_CODE" value="LEGISLATION_CODE" label="LEGISLATION_CODE" dataType="xsd:string" breakOrder="" fieldOrder="14"/>
+<element name="ADDS_TO_BUDGET" value="ADDS_TO_BUDGET" label="ADDS_TO_BUDGET" dataType="xsd:string" breakOrder="" fieldOrder="15"/>
+<element name="AWM_ATTRIBUTE_CATEGORY" value="AWM_ATTRIBUTE_CATEGORY" label="AWM_ATTRIBUTE_CATEGORY" dataType="xsd:string" breakOrder="" fieldOrder="16"/>
+<element name="AWM_ATTRIBUTE1" value="AWM_ATTRIBUTE1" label="AWM_ATTRIBUTE1" dataType="xsd:string" breakOrder="" fieldOrder="17"/>
+<element name="AWM_ATTRIBUTE2" value="AWM_ATTRIBUTE2" label="AWM_ATTRIBUTE2" dataType="xsd:string" breakOrder="" fieldOrder="18"/>
+<element name="AWM_ATTRIBUTE3" value="AWM_ATTRIBUTE3" label="AWM_ATTRIBUTE3" dataType="xsd:string" breakOrder="" fieldOrder="19"/>
+<element name="AWM_ATTRIBUTE4" value="AWM_ATTRIBUTE4" label="AWM_ATTRIBUTE4" dataType="xsd:string" breakOrder="" fieldOrder="20"/>
+<element name="AWM_ATTRIBUTE5" value="AWM_ATTRIBUTE5" label="AWM_ATTRIBUTE5" dataType="xsd:string" breakOrder="" fieldOrder="21"/>
+<element name="AWM_ATTRIBUTE6" value="AWM_ATTRIBUTE6" label="AWM_ATTRIBUTE6" dataType="xsd:string" breakOrder="" fieldOrder="22"/>
+<element name="AWM_ATTRIBUTE7" value="AWM_ATTRIBUTE7" label="AWM_ATTRIBUTE7" dataType="xsd:string" breakOrder="" fieldOrder="23"/>
+<element name="AWM_ATTRIBUTE8" value="AWM_ATTRIBUTE8" label="AWM_ATTRIBUTE8" dataType="xsd:string" breakOrder="" fieldOrder="24"/>
+<element name="AWM_ATTRIBUTE9" value="AWM_ATTRIBUTE9" label="AWM_ATTRIBUTE9" dataType="xsd:string" breakOrder="" fieldOrder="25"/>
+<element name="AWM_ATTRIBUTE10" value="AWM_ATTRIBUTE10" label="AWM_ATTRIBUTE10" dataType="xsd:string" breakOrder="" fieldOrder="26"/>
+<element name="AWM_ATTRIBUTE11" value="AWM_ATTRIBUTE11" label="AWM_ATTRIBUTE11" dataType="xsd:string" breakOrder="" fieldOrder="27"/>
+<element name="AWM_ATTRIBUTE12" value="AWM_ATTRIBUTE12" label="AWM_ATTRIBUTE12" dataType="xsd:string" breakOrder="" fieldOrder="28"/>
+<element name="AWM_ATTRIBUTE13" value="AWM_ATTRIBUTE13" label="AWM_ATTRIBUTE13" dataType="xsd:string" breakOrder="" fieldOrder="29"/>
+<element name="AWM_ATTRIBUTE14" value="AWM_ATTRIBUTE14" label="AWM_ATTRIBUTE14" dataType="xsd:string" breakOrder="" fieldOrder="30"/>
+<element name="AWM_ATTRIBUTE15" value="AWM_ATTRIBUTE15" label="AWM_ATTRIBUTE15" dataType="xsd:string" breakOrder="" fieldOrder="31"/>
+<element name="AWM_ATTRIBUTE16" value="AWM_ATTRIBUTE16" label="AWM_ATTRIBUTE16" dataType="xsd:string" breakOrder="" fieldOrder="32"/>
+<element name="AWM_ATTRIBUTE17" value="AWM_ATTRIBUTE17" label="AWM_ATTRIBUTE17" dataType="xsd:string" breakOrder="" fieldOrder="33"/>
+<element name="AWM_ATTRIBUTE18" value="AWM_ATTRIBUTE18" label="AWM_ATTRIBUTE18" dataType="xsd:string" breakOrder="" fieldOrder="34"/>
+<element name="AWM_ATTRIBUTE19" value="AWM_ATTRIBUTE19" label="AWM_ATTRIBUTE19" dataType="xsd:string" breakOrder="" fieldOrder="35"/>
+<element name="AWM_ATTRIBUTE20" value="AWM_ATTRIBUTE20" label="AWM_ATTRIBUTE20" dataType="xsd:string" breakOrder="" fieldOrder="36"/>
+<element name="AWM_ATTRIBUTE21" value="AWM_ATTRIBUTE21" label="AWM_ATTRIBUTE21" dataType="xsd:string" breakOrder="" fieldOrder="37"/>
+<element name="AWM_ATTRIBUTE22" value="AWM_ATTRIBUTE22" label="AWM_ATTRIBUTE22" dataType="xsd:string" breakOrder="" fieldOrder="38"/>
+<element name="AWM_ATTRIBUTE23" value="AWM_ATTRIBUTE23" label="AWM_ATTRIBUTE23" dataType="xsd:string" breakOrder="" fieldOrder="39"/>
+<element name="AWM_ATTRIBUTE24" value="AWM_ATTRIBUTE24" label="AWM_ATTRIBUTE24" dataType="xsd:string" breakOrder="" fieldOrder="40"/>
+<element name="AWM_ATTRIBUTE25" value="AWM_ATTRIBUTE25" label="AWM_ATTRIBUTE25" dataType="xsd:string" breakOrder="" fieldOrder="41"/>
+<element name="AWM_ATTRIBUTE26" value="AWM_ATTRIBUTE26" label="AWM_ATTRIBUTE26" dataType="xsd:string" breakOrder="" fieldOrder="42"/>
+<element name="AWM_ATTRIBUTE27" value="AWM_ATTRIBUTE27" label="AWM_ATTRIBUTE27" dataType="xsd:string" breakOrder="" fieldOrder="43"/>
+<element name="AWM_ATTRIBUTE28" value="AWM_ATTRIBUTE28" label="AWM_ATTRIBUTE28" dataType="xsd:string" breakOrder="" fieldOrder="44"/>
+<element name="AWM_ATTRIBUTE29" value="AWM_ATTRIBUTE29" label="AWM_ATTRIBUTE29" dataType="xsd:string" breakOrder="" fieldOrder="45"/>
+<element name="AWM_ATTRIBUTE30" value="AWM_ATTRIBUTE30" label="AWM_ATTRIBUTE30" dataType="xsd:string" breakOrder="" fieldOrder="46"/>
+<element name="AWM_ATTRIBUTE_NUMBER1" value="AWM_ATTRIBUTE_NUMBER1" label="AWM_ATTRIBUTE_NUMBER1" dataType="xsd:double" breakOrder="" fieldOrder="47"/>
+<element name="AWM_ATTRIBUTE_NUMBER2" value="AWM_ATTRIBUTE_NUMBER2" label="AWM_ATTRIBUTE_NUMBER2" dataType="xsd:double" breakOrder="" fieldOrder="48"/>
+<element name="AWM_ATTRIBUTE_NUMBER3" value="AWM_ATTRIBUTE_NUMBER3" label="AWM_ATTRIBUTE_NUMBER3" dataType="xsd:double" breakOrder="" fieldOrder="49"/>
+<element name="AWM_ATTRIBUTE_NUMBER4" value="AWM_ATTRIBUTE_NUMBER4" label="AWM_ATTRIBUTE_NUMBER4" dataType="xsd:double" breakOrder="" fieldOrder="50"/>
+<element name="AWM_ATTRIBUTE_NUMBER5" value="AWM_ATTRIBUTE_NUMBER5" label="AWM_ATTRIBUTE_NUMBER5" dataType="xsd:double" breakOrder="" fieldOrder="51"/>
+<element name="AWM_ATTRIBUTE_NUMBER6" value="AWM_ATTRIBUTE_NUMBER6" label="AWM_ATTRIBUTE_NUMBER6" dataType="xsd:double" breakOrder="" fieldOrder="52"/>
+<element name="AWM_ATTRIBUTE_NUMBER7" value="AWM_ATTRIBUTE_NUMBER7" label="AWM_ATTRIBUTE_NUMBER7" dataType="xsd:double" breakOrder="" fieldOrder="53"/>
+<element name="AWM_ATTRIBUTE_NUMBER8" value="AWM_ATTRIBUTE_NUMBER8" label="AWM_ATTRIBUTE_NUMBER8" dataType="xsd:double" breakOrder="" fieldOrder="54"/>
+<element name="AWM_ATTRIBUTE_NUMBER9" value="AWM_ATTRIBUTE_NUMBER9" label="AWM_ATTRIBUTE_NUMBER9" dataType="xsd:double" breakOrder="" fieldOrder="55"/>
+<element name="AWM_ATTRIBUTE_NUMBER10" value="AWM_ATTRIBUTE_NUMBER10" label="AWM_ATTRIBUTE_NUMBER10" dataType="xsd:double" breakOrder="" fieldOrder="56"/>
+<element name="AWM_ATTRIBUTE_NUMBER11" value="AWM_ATTRIBUTE_NUMBER11" label="AWM_ATTRIBUTE_NUMBER11" dataType="xsd:double" breakOrder="" fieldOrder="57"/>
+<element name="AWM_ATTRIBUTE_NUMBER12" value="AWM_ATTRIBUTE_NUMBER12" label="AWM_ATTRIBUTE_NUMBER12" dataType="xsd:double" breakOrder="" fieldOrder="58"/>
+<element name="AWM_ATTRIBUTE_NUMBER13" value="AWM_ATTRIBUTE_NUMBER13" label="AWM_ATTRIBUTE_NUMBER13" dataType="xsd:double" breakOrder="" fieldOrder="59"/>
+<element name="AWM_ATTRIBUTE_NUMBER14" value="AWM_ATTRIBUTE_NUMBER14" label="AWM_ATTRIBUTE_NUMBER14" dataType="xsd:double" breakOrder="" fieldOrder="60"/>
+<element name="AWM_ATTRIBUTE_NUMBER15" value="AWM_ATTRIBUTE_NUMBER15" label="AWM_ATTRIBUTE_NUMBER15" dataType="xsd:double" breakOrder="" fieldOrder="61"/>
+<element name="AWM_ATTRIBUTE_NUMBER16" value="AWM_ATTRIBUTE_NUMBER16" label="AWM_ATTRIBUTE_NUMBER16" dataType="xsd:double" breakOrder="" fieldOrder="62"/>
+<element name="AWM_ATTRIBUTE_NUMBER17" value="AWM_ATTRIBUTE_NUMBER17" label="AWM_ATTRIBUTE_NUMBER17" dataType="xsd:double" breakOrder="" fieldOrder="63"/>
+<element name="AWM_ATTRIBUTE_NUMBER18" value="AWM_ATTRIBUTE_NUMBER18" label="AWM_ATTRIBUTE_NUMBER18" dataType="xsd:double" breakOrder="" fieldOrder="64"/>
+<element name="AWM_ATTRIBUTE_NUMBER19" value="AWM_ATTRIBUTE_NUMBER19" label="AWM_ATTRIBUTE_NUMBER19" dataType="xsd:double" breakOrder="" fieldOrder="65"/>
+<element name="AWM_ATTRIBUTE_NUMBER20" value="AWM_ATTRIBUTE_NUMBER20" label="AWM_ATTRIBUTE_NUMBER20" dataType="xsd:double" breakOrder="" fieldOrder="66"/>
+<element name="AWM_ATTRIBUTE_DATE1" value="AWM_ATTRIBUTE_DATE1" label="AWM_ATTRIBUTE_DATE1" dataType="xsd:date" breakOrder="" fieldOrder="67" />
+<element name="AWM_ATTRIBUTE_DATE2" value="AWM_ATTRIBUTE_DATE2" label="AWM_ATTRIBUTE_DATE2" dataType="xsd:date" breakOrder="" fieldOrder="68" />
+<element name="AWM_ATTRIBUTE_DATE3" value="AWM_ATTRIBUTE_DATE3" label="AWM_ATTRIBUTE_DATE3" dataType="xsd:date" breakOrder="" fieldOrder="69" />
+<element name="AWM_ATTRIBUTE_DATE4" value="AWM_ATTRIBUTE_DATE4" label="AWM_ATTRIBUTE_DATE4" dataType="xsd:date" breakOrder="" fieldOrder="70" />
+<element name="AWM_ATTRIBUTE_DATE5" value="AWM_ATTRIBUTE_DATE5" label="AWM_ATTRIBUTE_DATE5" dataType="xsd:date" breakOrder="" fieldOrder="71" />
+<element name="AWM_ATTRIBUTE_DATE6" value="AWM_ATTRIBUTE_DATE6" label="AWM_ATTRIBUTE_DATE6" dataType="xsd:date" breakOrder="" fieldOrder="72" />
+<element name="AWM_ATTRIBUTE_DATE7" value="AWM_ATTRIBUTE_DATE7" label="AWM_ATTRIBUTE_DATE7" dataType="xsd:date" breakOrder="" fieldOrder="73" />
+<element name="AWM_ATTRIBUTE_DATE8" value="AWM_ATTRIBUTE_DATE8" label="AWM_ATTRIBUTE_DATE8" dataType="xsd:date" breakOrder="" fieldOrder="74" />
+<element name="AWM_ATTRIBUTE_DATE9" value="AWM_ATTRIBUTE_DATE9" label="AWM_ATTRIBUTE_DATE9" dataType="xsd:date" breakOrder="" fieldOrder="75" />
+<element name="AWM_ATTRIBUTE_DATE10" value="AWM_ATTRIBUTE_DATE10" label="AWM_ATTRIBUTE_DATE10" dataType="xsd:date" breakOrder="" fieldOrder="76" />
+<element name="AWM_ATTRIBUTE_DATE11" value="AWM_ATTRIBUTE_DATE11" label="AWM_ATTRIBUTE_DATE11" dataType="xsd:date" breakOrder="" fieldOrder="77" />
+<element name="AWM_ATTRIBUTE_DATE12" value="AWM_ATTRIBUTE_DATE12" label="AWM_ATTRIBUTE_DATE12" dataType="xsd:date" breakOrder="" fieldOrder="78" />
+<element name="AWM_ATTRIBUTE_DATE13" value="AWM_ATTRIBUTE_DATE13" label="AWM_ATTRIBUTE_DATE13" dataType="xsd:date" breakOrder="" fieldOrder="79" />
+<element name="AWM_ATTRIBUTE_DATE14" value="AWM_ATTRIBUTE_DATE14" label="AWM_ATTRIBUTE_DATE14" dataType="xsd:date" breakOrder="" fieldOrder="80" />
+<element name="AWM_ATTRIBUTE_DATE15" value="AWM_ATTRIBUTE_DATE15" label="AWM_ATTRIBUTE_DATE15" dataType="xsd:date" breakOrder="" fieldOrder="81" />
+<element name="ACTION_OCCURRENCE_ID" value="ACTION_OCCURRENCE_ID" label="ACTION_OCCURRENCE_ID" dataType="xsd:double" breakOrder="" fieldOrder="82"/>
+<element name="FREEZE_START_DATE" value="FREEZE_START_DATE" label="FREEZE_START_DATE" dataType="xsd:date" breakOrder="" fieldOrder="83" />
+<element name="FREEZE_UNTIL_DATE" value="FREEZE_UNTIL_DATE" label="FREEZE_UNTIL_DATE" dataType="xsd:date" breakOrder="" fieldOrder="84" />
+</group>
+</dataStructure>
+</nodeList>
+</output>

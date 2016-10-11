@@ -42,7 +42,6 @@ public class FileUploadView {
                 // keeping the folder clean
                 logger.info("Cleaning directory");
                 FileUtils.cleanDirectory(dir);
-                //download = new DefaultStreamedContent(file.getInputstream());
                 InputStream myInputStream = file.getInputstream();
 
 
@@ -60,15 +59,14 @@ public class FileUploadView {
 
                 GenerateXsdFromBiSampleCode gen = new GenerateXsdFromBiSampleCode();
 
-                //xsdgen = new ByteArrayInputStream(gen.run(serverFile.getAbsolutePath()).getBytes(StandardCharsets.UTF_8));
-                gen.run(serverFile.getAbsolutePath()).getBytes(StandardCharsets.UTF_8);
+                String xsdstring = gen.run(serverFile.getAbsolutePath());
                 download = new DefaultStreamedContent();
-                File file = new File("C:\\Users\\cleysst\\workspace\\xsdgen\\null\\tmpFiles\\XXKPMG_EMPLOYEES_PART_2_CODE.xml.xsd");
-                InputStream input = new FileInputStream(file);
+                InputStream input = new ByteArrayInputStream(xsdstring.getBytes());
                 ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
-                download = new DefaultStreamedContent(input, externalContext.getMimeType(file.getName()), file.getName());
+                download = new DefaultStreamedContent(input, externalContext.getMimeType(file.getFileName()+".xsd"), file.getFileName()+".xsd");
                 System.out.println("PREP = " + download.getName());
-                //return download;
+                FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "Info", "PrimeFaces Rocks."));
+
             } catch (IOException e) {
                 e.printStackTrace();
             }

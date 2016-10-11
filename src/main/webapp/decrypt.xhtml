@@ -21,14 +21,14 @@
                 <h:form>
                     <h:panelGrid columns="2" layout="grid">
                         <h:outputText value="Encoded Value: *"/>
-                        <p:inputText placeholder="Text" required="true" value="#{jasyptEncryptorView.input}" size="40"/>
+                        <p:inputText placeholder="ENC(....)" required="true" value="#{jasyptEncryptorView.input}" size="40"/>
 
                         <h:outputText value="Password: *"/>
                         <p:inputText placeholder="Password" required="true" value="#{jasyptEncryptorView.password}"
                                      size="40"/>
 
 
-                        <p:commandButton value="Encrypt" actionListener="#{jasyptEncryptorView.genDecryption}"
+                        <p:commandButton value="Decrypt" actionListener="#{jasyptEncryptorView.genDecryption}"
                                          update="@form">
                         </p:commandButton> <br/>
 
