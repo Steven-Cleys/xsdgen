@@ -125,8 +125,15 @@
             <artifactId>jsf-impl</artifactId>
             <version>${jsf.version}</version>
         </dependency>
+		<!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
+		<dependency>
+			<groupId>org.jasypt</groupId>
+			<artifactId>jasypt</artifactId>
+			<version>1.9.2</version>
+		</dependency>
 
-    </dependencies>
+
+	</dependencies>
 	<profiles>
 		<profile>
 			<!-- When built in OpenShift the 'openshift' profile will be used when 

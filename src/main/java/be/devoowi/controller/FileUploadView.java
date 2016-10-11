@@ -76,4 +76,8 @@ public class FileUploadView {
         }
         return download;
     }
+    public void showMessage() {
+        logger.info("showmessage");
+        FacesContext.getCurrentInstance().addMessage("message1", new FacesMessage(FacesMessage.SEVERITY_INFO, "Info", "PrimeFaces Rocks."));
+    }
 }
