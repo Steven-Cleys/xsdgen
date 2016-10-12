@@ -12,8 +12,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.context.ExternalContext;
 import javax.faces.context.FacesContext;
 import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.util.logging.Logger;
+import org.apache.log4j.Logger;
 
 @ManagedBean
 public class FileUploadView {
@@ -35,7 +34,7 @@ public class FileUploadView {
             try {
                 // Creating the directory to store file
 
-                String rootPath = System.getProperty("catalina.home");
+                String rootPath = System.getProperty("user.dir");
                 File dir = new File(rootPath + File.separator + "tmpFiles");
                 if (!dir.exists())
                     dir.mkdirs();
