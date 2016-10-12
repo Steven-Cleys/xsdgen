@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="output">
+        <xsd:complexType mixed="true">
+            <xsd:sequence>
+                <xsd:element name="nodeList" minOccurs="0">
+                    <xsd:complexType mixed="true">
+                        <xsd:sequence>
+                            <xsd:element name="dataStructure" minOccurs="0">
+                                <xsd:complexType mixed="true">
+                                    <xsd:sequence>
+                                        <xsd:element name="group" maxOccurs="unbounded">
+                                            <xsd:complexType mixed="true">
+                                                <xsd:sequence>
+                                                    <xsd:element name="element" maxOccurs="unbounded">
+                                                        <xsd:complexType>
+                                                            <xsd:simpleContent>
+                                                                <xsd:extension base="xsd:string">
+                                                                    <xsd:attribute name="name" type="xsd:string"
+                                                                                   use="required"/>
+                                                                    <xsd:attribute name="value" type="xsd:string"
+                                                                                   use="optional"/>
+                                                                    <xsd:attribute name="label" type="xsd:string"
+                                                                                   use="optional"/>
+                                                                    <xsd:attribute name="dataType" type="xsd:string"
+                                                                                   use="required"/>
+                                                                    <xsd:attribute name="breakOrder" type="xsd:string"
+                                                                                   use="optional"/>
+                                                                    <xsd:attribute name="fieldOrder" type="xsd:int"
+                                                                                   use="required"/>
+                                                                    <xsd:attribute name="formatMask" type="xsd:string"
+                                                                                   use="optional"/>
+                                                                </xsd:extension>
+                                                            </xsd:simpleContent>
+                                                        </xsd:complexType>
+                                                    </xsd:element>
+                                                </xsd:sequence>
+                                                <xsd:attribute name="name" type="xsd:string" use="required"/>
+                                                <xsd:attribute name="label" type="xsd:string" use="required"/>
+                                                <xsd:attribute name="source" type="xsd:string" use="required"/>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="tagName" type="xsd:string" use="required"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="name" type="xsd:string" use="required"/>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="rootName" type="xsd:string" use="required"/>
+            <xsd:attribute name="uniqueRowName" type="xsd:boolean" use="required"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

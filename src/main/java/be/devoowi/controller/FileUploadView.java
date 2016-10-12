@@ -3,6 +3,7 @@ package be.devoowi.controller;
 import be.devoowi.xsdgenerator.GenerateXsdFromBiSampleCode;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
+import org.apache.log4j.Logger;
 import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 import org.primefaces.model.UploadedFile;
@@ -12,7 +13,8 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.context.ExternalContext;
 import javax.faces.context.FacesContext;
 import java.io.*;
-import org.apache.log4j.Logger;
+
+
 
 @ManagedBean
 public class FileUploadView {
@@ -45,8 +47,10 @@ public class FileUploadView {
 
 
                 // Create the file on server
+                String fileName = file.getFileName().substring(file.getFileName().lastIndexOf('\\') + 1); // Shit Explorer fix.
+                logger.info("filename: " + fileName);
                 File serverFile = new File(dir.getAbsolutePath()
-                        + File.separator + file.getFileName());
+                        + File.separator + fileName);
                 BufferedOutputStream stream = new BufferedOutputStream(
                         new FileOutputStream(serverFile));
                 stream.write(IOUtils.toByteArray(myInputStream));
@@ -59,12 +63,14 @@ public class FileUploadView {
                 GenerateXsdFromBiSampleCode gen = new GenerateXsdFromBiSampleCode();
 
                 String xsdstring = gen.run(serverFile.getAbsolutePath());
+
+
                 download = new DefaultStreamedContent();
                 InputStream input = new ByteArrayInputStream(xsdstring.getBytes());
                 ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
                 download = new DefaultStreamedContent(input, externalContext.getMimeType(file.getFileName()+".xsd"), file.getFileName()+".xsd");
-                System.out.println("PREP = " + download.getName());
-                FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "Info", "PrimeFaces Rocks."));
+
+                FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL, "Info", "PrimeFaces Rocks."));
 
             } catch (IOException e) {
                 e.printStackTrace();
