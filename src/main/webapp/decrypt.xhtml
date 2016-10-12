@@ -19,19 +19,21 @@
         <p:layoutUnit position="center">
             <p:panel>
                 <h:form>
+                    <p:growl id="growlmessage" showDetail="false" />
                     <h:panelGrid columns="2" layout="grid">
+                        <h:outputText value="User name: *"/>
+                        <p:inputText placeholder="User Name" required="true" size="40" label="username"/>
+
                         <h:outputText value="Encoded Value: *"/>
-                        <p:inputText placeholder="ENC(....)" required="true" value="#{jasyptEncryptorView.input}" size="40"/>
+                        <p:inputText placeholder="ENC(....)" required="true" value="#{jasyptEncryptorView.input}" size="40" label="Encoded value"/>
 
-                        <h:outputText value="Password: *"/>
-                        <p:inputText placeholder="Password" required="true" value="#{jasyptEncryptorView.password}"
+                        <h:outputText value="Passphrase: *"/>
+                        <p:inputText placeholder="Passphrase" required="true" value="#{jasyptEncryptorView.password}" label="Passphrase"
                                      size="40"/>
-
 
                         <p:commandButton value="Decrypt" actionListener="#{jasyptEncryptorView.genDecryption}"
                                          update="@form">
                         </p:commandButton> <br/>
-
 
                         <h:outputText value="Result: " rendered="#{not empty jasyptEncryptorView.output}"/>
                         <p:inputText readonly="true" value="#{jasyptEncryptorView.output}" size="40"

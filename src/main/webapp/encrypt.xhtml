@@ -20,20 +20,20 @@
             <p:panel id="panel">
 <h:form>
                 <h:panelGrid columns="2" layout="grid">
-                    <h:outputText value="Input text: *"/>
-                    <p:inputText placeholder="Text" required="true"
-                                 value="#{jasyptEncryptorView.input}" size="40"/>
+                    <h:outputText value="User name: * "/>
+                    <p:inputText placeholder="User Name" required="true" size="40" label="Username"/>
 
+                    <h:outputText value="Password: * "/>
+                    <p:inputText placeholder="Password" required="true"
+                                 value="#{jasyptEncryptorView.input}" size="40" label="Password"/>
 
-                    <h:outputText value="Password: *"/>
-                    <p:inputText placeholder="Password" required="true" value="#{jasyptEncryptorView.password}"
+                    <h:outputText value="Passphrase: * "/>
+                    <p:inputText placeholder="Passphrase" required="true" value="#{jasyptEncryptorView.password}" label="Passphrase"
                                  size="40"/>
-
 
                     <p:commandButton value="Encrypt" validateClient="true"
                                      actionListener="#{jasyptEncryptorView.genEncryption}" update="panel">
                     </p:commandButton> <br/>
-
 
                     <h:outputText value="Result: " rendered="#{not empty jasyptEncryptorView.output}"/>
                     <p:inputText readonly="true" value="#{jasyptEncryptorView.output}" size="40"

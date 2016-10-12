@@ -2,9 +2,12 @@ package be.devoowi.controller;
 
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
 import org.jasypt.encryption.pbe.config.SimplePBEConfig;
+import org.jasypt.exceptions.EncryptionOperationNotPossibleException;
 import org.jasypt.properties.PropertyValueEncryptionUtils;
 
+import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
 
 /**
  * Created by cleysst on 11/10/2016.
@@ -42,7 +45,6 @@ public class JasyptEncryptorView {
         encryptor.setConfig(config);
         encryptor.initialize();
         setOutput(PropertyValueEncryptionUtils.encrypt(getInput(), encryptor));
-        System.out.println("sdfsdf" + getOutput());
     }
 
     public void genDecryption() {
@@ -53,8 +55,13 @@ public class JasyptEncryptorView {
         StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
         encryptor.setConfig(config);
         encryptor.initialize();
-        setOutput(PropertyValueEncryptionUtils.decrypt(getInput(), encryptor));
-        System.out.println(getOutput());
+        try {
+            setOutput(PropertyValueEncryptionUtils.decrypt(getInput(), encryptor));
+        }
+        catch (Exception eonpex) {
+            //Catching validation and arrayoutofbounds exceptions
+            FacesContext.getCurrentInstance().addMessage("growlmessage", new FacesMessage(FacesMessage.SEVERITY_ERROR, "Value cannot be decrypted", "Please make sure the passphrase is correct"));
+    }
     }
 
     public String getOutput() {
